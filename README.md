@@ -1,9 +1,8 @@
-# foia-recommendations
-research and recommendations for FOIA improvement act "portal"
+For now, we're just getting started. DOJ Office of Information Policy has posted a [blog post about the project](https://www.justice.gov/oip/blog/oip-seeks-your-participation-development-national-foia-portal).
 
-From our Interagency Agreement with DOJ:
+## From our Interagency Agreement with DOJ:
 
-## 1.0		BACKGROUND
+### 1.0		BACKGROUND
 
 The Office of 18F (18F), through the General Services Administration (GSA) / Technology Transformation Service (TTS), is a team of designers, engineers, product managers, and strategists. 18F is a civic consultancy for the government, inside the government, enabling agencies to rapidly deploy tools and services that are consistent with human-centered design, agile development, and related modern techniques.
 
@@ -11,7 +10,7 @@ The Requesting Agency, for purposes of this Statement of Work (SOW), is the Depa
 
 DOJ is engaging 18F to help define a vision for this portal as well as a roadmap for improving citizens’ ability to find existing documents, decrease the amount of time it takes to submit and obtain outcomes of a FOIA request, and track the statuses of these requests. 18F may use research findings of the existing open.foia.gov platform to inform or establish a baseline for this vision and roadmap. Specifically, 18F’s efforts will highlight what is important to prospective users who submit a FOIA request using a structured request form and explore the potential for adding a search functionality across all federal websites and released FOIA documents. Research on the search and interoperability issues done during this engagement will inform potential future phases of work. 
 
-## 2.0		APPROACH 
+### 2.0		APPROACH 
 
 18F takes an agile and human-centered approach to developing digital products and services. This means 18F works in short iterations (sprints), in which a scope of work is planned, executed, and demonstrated with stakeholders for the purposes of informing the next iteration. This approach relies on rapid experimentation and user feedback, ultimately ensuring that solutions are shaped by the needs of the people DOJ serves.
 
@@ -27,7 +26,7 @@ To support this approach, it is essential that 18F has the support of a dedicate
 
 Additionally, it is essential that 18F has the support of a dedicated project team within DOJ who are responsible for pairing with the 18F team over the course of this work. This team will be actively involved in the project with the ability and capacity to manage this work in any follow-on engagement. This team should include: a project manager, a python and/or node developer, a UX designer/researcher, and a system security subject matter expert. The 18F project manager will work collaboratively with the DOJ project manager to address any issues related to overall project/sprint planning, deliverables, resources, budgets, technical solution, testing, etc. The UX designer/researcher and system security subject matter expert are preferred to be actively involved at the project’s onset whereas the python and/or node developer will be actively involved as close to the onset of the project as possible.
 
-## 3.0  		PROCESS OVERVIEW
+### 3.0  		PROCESS OVERVIEW
 
 18F will collaborate with DOJ to: 
 
@@ -37,7 +36,7 @@ Additionally, it is essential that 18F has the support of a dedicated project te
 1. Deliver a report of findings that articulates key learnings and which establishes parameters for an MVP in the form of a roadmap and groomed backlog of user stories and tasks, informed by actual users. The report will also include high-level recommendations for agency requirements for which governmentwide guidance may be necessary.
 1. Conduct research into interoperability and search, and incorporate findings into development/backlog/roadmap as indicated.
 
-## 4.0.		DELIVERABLES AND TIMELINE		
+### 4.0.		DELIVERABLES AND TIMELINE		
 
 The following timeline is aimed at providing relative direction around the timing of key deliverables. It assumes an eleven-week timeline for discovery. All day estimates assume business days and do not include federal holidays.
 
