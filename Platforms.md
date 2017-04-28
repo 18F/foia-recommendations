@@ -16,8 +16,9 @@ It's not obvious what the publication policy is for all requests on all deployed
 
 _Updated: 2017-04-26_
 
-[MuckRock](https://www.muckrock.com/) is an **unofficial**, **open source**
-platform for making FOIA requests of various levels of government.
+[MuckRock](https://www.muckrock.com/) is an **unofficial**, **[open
+source](https://github.com/MuckRock/muckrock)** platform for making FOIA
+requests of various levels of government.
 
 MuckRock publishes the results of [many FOI
 requests](https://www.muckrock.com/foi/list/) online, and makes them searchable.
@@ -48,14 +49,32 @@ documentation seems limited.
 
 ## RecordTrac
 
-RecordTrac is two things: 
+_Updated: 2016-04-28_
 
-* the **official** [portal](http://records.oaklandnet.com/) for the City of Oakland, California. It was [developed by Code for America's fellows](http://www.codeforamerica.org/blog/2013/10/01/recordtrac-easy-access-to-public-records/) working alongside the City of Oakland. It processes requests for California's FOIA equivalent, the [California Public Records Act](https://en.wikipedia.org/wiki/California_Public_Records_Act). 
-* a [platform supported by Postcode](http://www.postcode.io/recordtrac), a private company that focuses on building and hosting open source, civic technology for local governments. Postcode was [formed by prior Code for America fellows](http://blog.postcode.io/post/73423147021/hello-world), including the group that built RecordTrac in Oakland.
+[RecordTrac](http://records.oaklandnet.com/) is the **official**, **[open
+source](https://github.com/codeforamerica/recordtrac)** portal for the City of Oakland, California.
 
-In both cases, RecordTrac is **[open source](https://github.com/postcode/recordtrac)**. It is a Flask app written in Python.
+It was [developed by Code for America's
+fellows](http://www.codeforamerica.org/blog/2013/10/01/recordtrac-easy-access-to-public-records/)
+working alongside the City of Oakland. It processes requests for California's
+FOIA equivalent, the [California Public Records
+Act](https://en.wikipedia.org/wiki/California_Public_Records_Act).
 
 In Oakland, [every satisfied request](http://records.oaklandnet.com/requests) is made available to the public. Each request, such as [this request for the Mayor's schedule](http://records.oaklandnet.com/request/1172), has a history of requestor interaction, and each published [document](http://documents.scribd.com.s3.amazonaws.com/docs/7rzdav3ry834su4u.pdf?t=1384814759).
+
+RecordTrac acts as a single repository for managing requests and responses. When
+a request comes in, a notification is sent to the point of contact based on the
+department identified in the request. Documents fulfilling requests are often
+linked in the response or uploaded to scribd.com.
+
+There doesn't appear to be any active development on RecordTrac.
+
+
+### Technology
+
+- Python/Flask
+- PostgreSQL full text search (Request search only)
+
 
 ## FOIAonline
 
