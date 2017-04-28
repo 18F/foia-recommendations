@@ -142,6 +142,23 @@ through iFOIA.
 This project was developed by the Reporters Committee for Freedom of the Press.
 
 
+## FOIA.gov
+
+_Updated: 2017-04-28_
+
+[FOIA.gov](https://www.foia.gov) is an **official**, **closed source** website
+maintained by the Department of Justice that focuses on providing information
+about the FOIA and its administration. The site publishes statistical
+information about the administration of FOIA, which comes from the [annual Chief
+FOIA Officer reports](http://www.justice.gov/oip/reports-1). The site also
+publishes contact information for the various [FOIA
+offices](http://www.foia.gov/report-makerequest.html) across the Federal
+government.
+
+FOIA.gov provides a [basic web search](https://www.foia.gov/search.html)
+powered by bing.com.
+
+
 ## Alavateli
 
 [Alaveteli](http://www.alaveteli.org/) is an information request platform, built by the UK organization mySociety. It is an [open source](https://github.com/mysociety/alaveteli/) platform written in Rails, and the result of generalizing the platform they built for [WhatDoTheyKnow](https://www.whatdotheyknow.com/).
@@ -169,8 +186,3 @@ Requests that result in the release of records can make those records publicly a
 [Froide](http://stefanw.github.io/froide/) is a Freedom of Information platform. It is an [open source](https://github.com/stefanw/froide) platform written in Python with Django 1.5. Froide was designed to mimic the functionality of [What do they know](http://whatdotheyknow.com/).
 
 [According to the website](http://froide.readthedocs.org/en/latest/about/), Froide connects entities through a man-to-many relationship to allow the public body to be accountable under different laws. Requests are mailed to public bodies through the platform via a special, request-unique email address. It offers a read/write REST-API and redaction of PDFs.
-
-
-## FOIA.gov
-
-[FOIA.gov] (FOIA.gov) is a website maintained by the Department of Justice that focuses on providing information about the FOIA and its administration. The site publishes statistical information about the administration of FOIA, which comes from the [annual Chief FOIA Officer reports] (http://www.justice.gov/oip/reports-1). The site also publishes contact information for the various [FOIA offices] (http://www.foia.gov/report-makerequest.html) across the Federal government. 
