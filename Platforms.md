@@ -9,13 +9,6 @@ This list does not include proprietary or internal solutions that requestors do 
 
 We can't guarantee the accuracy of this page -- it represents initial research of team members, and could be incomplete or become out-of-date.
 
-## Alavateli
-
-[Alaveteli](http://www.alaveteli.org/) is an information request platform, built by the UK organization mySociety. It is an [open source](https://github.com/mysociety/alaveteli/) platform written in Rails, and the result of generalizing the platform they built for [WhatDoTheyKnow](https://www.whatdotheyknow.com/).
-
-Alavateli has [extensive documentation](http://code.alaveteli.org/), a reasonably active [mailing list](https://groups.google.com/forum/#!forum/alaveteli-dev), and a [dedicated blog](http://www.alaveteli.org/blog/).
-
-It's not obvious what the publication policy is for all requests on all deployed instances. On WhatDoTheyKnow, you can read the [full back-and-forth](https://www.whatdotheyknow.com/request/removal_of_entitlements_and_lack#comment-50953) between requestor and agency, and download released data.
 
 ## MuckRock
 
@@ -81,18 +74,6 @@ There doesn't appear to be any active development on RecordTrac.
 - PostgreSQL full text search (Request search only)
 
 
-## FOIAonline
-
-[FOIAonline](https://foiaonline.regulations.gov/foia/action/public/home) is an **official**, **closed source** portal operated by the [Environmental Protection Agency](http://www.epa.gov/) (EPA).
-
-FOIAonline allows citizens to request information directly from participating agencies. At time of this writing, there are 8: [National Archives](http://www.archives.gov/), [Commerce](http://www.commerce.gov/), [CBP](http://www.cbp.gov/), EPA, [FLRA](http://www.flra.gov/), [MSPB](http://www.mspb.gov/), [PBGC](http://www.pbgc.gov/), and the [Navy](http://www.navy.mil/). FOIAonline will be adding more agencies soon.
-
-FOIAonline is funded at least in part through the financial support of participating agencies.
-
-FOIAonline allows you to [search](https://foiaonline.regulations.gov/foia/action/public/search) FOIA requests that have been made through its system. It's not clear whether one can browse without knowing a search term in advance.
-
-Requests that result in the release of records can make those records publicly available, as on this [FOIA request to the EPA](https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d28016293b). A "partial grant/partial denial", there are 126 documents attached to the request, mainly PDFs. There appears to be no requestor/agency discussion visible to the public, beyond the original request, nor any explanation for the partial grant/denial.
-
 ## FOIA Machine
 
 _Updated: 2016-04-26_
@@ -125,6 +106,7 @@ progress is continuing.~
 
 FOIAMachine appears to send form letters via email. Contact information for agencies is user submitted and very incomplete. Major agencies such as the Department of Treasury don't have contact info or are not disambiguated from state government entities with similar names.
 
+
 ### FOIAMachine Features
 _(Per Kickstarter video)_
 
@@ -137,11 +119,7 @@ _(Per Kickstarter video)_
  * Build information on improving request in the future
  * Tracks how well law is working
 
-## Froide
 
-[Froide](http://stefanw.github.io/froide/) is a Freedom of Information platform. It is an [open source](https://github.com/stefanw/froide) platform written in Python with Django 1.5. Froide was designed to mimic the functionality of [What do they know](http://whatdotheyknow.com/).
-
-[According to the website](http://froide.readthedocs.org/en/latest/about/), Froide connects entities through a man-to-many relationship to allow the public body to be accountable under different laws. Requests are mailed to public bodies through the platform via a special, request-unique email address. It offers a read/write REST-API and redaction of PDFs.
 
 ## iFOIA
 
@@ -162,6 +140,36 @@ a completed request do not seem to be collected and made available to the public
 through iFOIA.
 
 This project was developed by the Reporters Committee for Freedom of the Press.
+
+
+## Alavateli
+
+[Alaveteli](http://www.alaveteli.org/) is an information request platform, built by the UK organization mySociety. It is an [open source](https://github.com/mysociety/alaveteli/) platform written in Rails, and the result of generalizing the platform they built for [WhatDoTheyKnow](https://www.whatdotheyknow.com/).
+
+Alavateli has [extensive documentation](http://code.alaveteli.org/), a reasonably active [mailing list](https://groups.google.com/forum/#!forum/alaveteli-dev), and a [dedicated blog](http://www.alaveteli.org/blog/).
+
+It's not obvious what the publication policy is for all requests on all deployed instances. On WhatDoTheyKnow, you can read the [full back-and-forth](https://www.whatdotheyknow.com/request/removal_of_entitlements_and_lack#comment-50953) between requestor and agency, and download released data.
+
+
+## FOIAonline
+
+[FOIAonline](https://foiaonline.regulations.gov/foia/action/public/home) is an **official**, **closed source** portal operated by the [Environmental Protection Agency](http://www.epa.gov/) (EPA).
+
+FOIAonline allows citizens to request information directly from participating agencies. At time of this writing, there are 8: [National Archives](http://www.archives.gov/), [Commerce](http://www.commerce.gov/), [CBP](http://www.cbp.gov/), EPA, [FLRA](http://www.flra.gov/), [MSPB](http://www.mspb.gov/), [PBGC](http://www.pbgc.gov/), and the [Navy](http://www.navy.mil/). FOIAonline will be adding more agencies soon.
+
+FOIAonline is funded at least in part through the financial support of participating agencies.
+
+FOIAonline allows you to [search](https://foiaonline.regulations.gov/foia/action/public/search) FOIA requests that have been made through its system. It's not clear whether one can browse without knowing a search term in advance.
+
+Requests that result in the release of records can make those records publicly available, as on this [FOIA request to the EPA](https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d28016293b). A "partial grant/partial denial", there are 126 documents attached to the request, mainly PDFs. There appears to be no requestor/agency discussion visible to the public, beyond the original request, nor any explanation for the partial grant/denial.
+
+
+## Froide
+
+[Froide](http://stefanw.github.io/froide/) is a Freedom of Information platform. It is an [open source](https://github.com/stefanw/froide) platform written in Python with Django 1.5. Froide was designed to mimic the functionality of [What do they know](http://whatdotheyknow.com/).
+
+[According to the website](http://froide.readthedocs.org/en/latest/about/), Froide connects entities through a man-to-many relationship to allow the public body to be accountable under different laws. Requests are mailed to public bodies through the platform via a special, request-unique email address. It offers a read/write REST-API and redaction of PDFs.
+
 
 ## FOIA.gov
 
