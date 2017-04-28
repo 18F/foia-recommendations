@@ -145,11 +145,23 @@ _(Per Kickstarter video)_
 
 ## iFOIA
 
-[iFOIA] (ifoia.org) is a closed-source platform that allows users to generate new requests for information from state and federal offices. iFOIA requires a user to register for an account and generate requests. This process guides users through the entire information request process. Once complete, the user is able to send the information electronically or print the completed request to send offline.
+_Updated: 2017-04-28_
 
-Once completed, the user is able to maintain open and completed requests, as well as share requests with others. One additional feature is an ability to maintain information requests created outside of iFOIA and use the platform to appeal a prior determination. However, responsive documents associated with a completed request do not seem to be collected and made available to the public through iFOIA. 
+[iFOIA](ifoia.org) is a **closed-source** platform that allows users to generate
+new requests for information from state and federal offices. iFOIA requires
+a user to register for an account and generate requests. This process guides
+users through the entire information request process. Once complete, the user is
+able to send the information electronically or print the completed request to
+send offline.
 
-This project was developed by the Reporters Committee for Freedom of the Press. 
+Once completed, the user is able to maintain open and completed requests, as
+well as share requests with others. One additional feature is an ability to
+maintain information requests created outside of iFOIA and use the platform to
+appeal a prior determination. However, responsive documents associated with
+a completed request do not seem to be collected and made available to the public
+through iFOIA.
+
+This project was developed by the Reporters Committee for Freedom of the Press.
 
 ## FOIA.gov
 
