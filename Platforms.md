@@ -14,11 +14,37 @@ It's not obvious what the publication policy is for all requests on all deployed
 
 ## MuckRock
 
-[MuckRock](https://www.muckrock.com/) is an **unofficial**, **closed source** platform for making FOIA requests of various levels of government.
+_Updated: 2017-04-26_
 
-Aimed at a journalist audience, MuckRock publishes the results of [many FOI requests](https://www.muckrock.com/foi/list/) online, and makes them searchable. MuckRock has a [business model](https://www.muckrock.com/accounts/register/) based on filing requests, scanning documents, supporting embargoed responses, and custom plans for large organizations.
+[MuckRock](https://www.muckrock.com/) is an **unofficial**, **open source**
+platform for making FOIA requests of various levels of government.
+
+MuckRock publishes the results of [many FOI
+requests](https://www.muckrock.com/foi/list/) online, and makes them searchable.
+MuckRock has a [business model](https://www.muckrock.com/accounts/) based on
+filing requests, scanning documents, supporting embargoed responses, and custom
+plans for large organizations. Users are also able to crowdsource finances to
+cover request fees.
 
 MuckRock received some initial funding by the [Knight Foundation](http://www.knightfoundation.org/press-room/press-mention/knight-innovation-ard-win-selects-muckrock-25/), [Freedom of the Press Foundation](https://pressfreedomfoundation.org/organization/muckrock-news), and the [Sunlight Foundation](http://sunlightfoundation.com/about/grants/).
+
+The platform was open sourced under the AGPL license in [November
+2016](https://www.muckrock.com/news/archives/2016/nov/29/muckrock-goes-open-source/).
+
+
+### Technology
+
+- Hosted API
+- Python/Django
+- scikit-learn for document classification
+- documentcloud.org for OCR
+- django-watson for full-text search
+
+MuckRock provides an [API](https://www.muckrock.com/api/) to access their data
+including [some examples](https://github.com/MuckRock/API-examples) of how it
+can be used. FOIA requests can also be submitted through this API. The
+documentation seems limited.
+
 
 ## RecordTrac
 
