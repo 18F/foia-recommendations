@@ -69,15 +69,35 @@ FOIAonline allows you to [search](https://foiaonline.regulations.gov/foia/action
 
 Requests that result in the release of records can make those records publicly available, as on this [FOIA request to the EPA](https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d28016293b). A "partial grant/partial denial", there are 126 documents attached to the request, mainly PDFs. There appears to be no requestor/agency discussion visible to the public, beyond the original request, nor any explanation for the partial grant/denial.
 
-## FOIAMachine
+## FOIA Machine
 
-[FOIAMachine](https://www.foiamachine.org) is an **unofficial**, **[open source](https://github.com/cirlabs/foiamachine)**, and currently beta-only FOIA portal. It is built and operated by the [Center for Investigative Reporting](http://cironline.org/) (CIR). 
+_Updated: 2016-04-26_
+
+[FOIA Machine](https://www.foiamachine.org) is an **unofficial**, **[open
+source](https://github.com/cirlabs/foiamachine)** FOIA
+portal. It is built and by the [Center for Investigative
+Reporting](http://cironline.org/) (CIR) and operated by
+[MuckRock](https://www.muckrock.com/).
+
+[FOIA Machine joined
+MuckRock](https://www.kickstarter.com/projects/cir/foia-machine/posts) in
+November 2016:
+
+> FOIA Machine will remain free to let users manually track their own requests,
+> while MuckRock will continue to offer a “full service” experience that submits
+> the requests directly to the agency, automatically follows up, and
+> conveniently digitizes any responsive documents.
 
 Aimed at an audience of journalists, users make FOIA requests through FOIA Machine, which then submits your request to any of multiple governments on your behalf. Users can track request status, and receive responses to their requests.
 
-FOIA Machine was originally funded with a bit under $50,000 through a [prototype grant from the Knight Foundation](http://www.knightfoundation.org/grants/20102529/). CIR built an alpha with this funding, and then requested further funding through a [successful Kickstarter campaign](https://www.kickstarter.com/projects/cir/foia-machine) that raised a bit over $50,000. 
+FOIA Machine was originally funded with a bit under $50,000 through a [prototype grant from the Knight Foundation](http://www.knightfoundation.org/grants/20102529/). CIR built an alpha with this funding, and then requested further funding through a [successful Kickstarter campaign](https://www.kickstarter.com/projects/cir/foia-machine) that raised a bit over $50,000.
 
-The site works, and there are [public requests](https://www.foiamachine.org/requests/public/), but it's not clear how information is released. Even the requests marked as "Fulfilled" have no visible information for public download. Their [updates](https://www.kickstarter.com/projects/cir/foia-machine/posts) indicate progress is continuing.
+~The site works, and there are [public
+requests](https://www.foiamachine.org/requests/public/), but it's not clear how
+information is released. Even the requests marked as "Fulfilled" have no visible
+information for public download. Their
+[updates](https://www.kickstarter.com/projects/cir/foia-machine/posts) indicate
+progress is continuing.~
 
 FOIAMachine appears to send form letters via email. Contact information for agencies is user submitted and very incomplete. Major agencies such as the Department of Treasury don't have contact info or are not disambiguated from state government entities with similar names.
 
