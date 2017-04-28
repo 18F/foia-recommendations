@@ -1,3 +1,8 @@
+# Platforms
+
+_Non-authoritative FOIA research, curated by 18F, a digital delivery team in the
+US federal government._
+
 A number of public platforms have been built to process Freedom of Information requests. 
 
 This list does not include proprietary or internal solutions that requestors do not see, such as [FOIAXpress](http://www.foiaxpress.com/).
