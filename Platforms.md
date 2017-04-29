@@ -170,9 +170,15 @@ It's not obvious what the publication policy is for all requests on all deployed
 
 ## FOIAonline
 
+_Updated: 2017-04-28_
+
 [FOIAonline](https://foiaonline.regulations.gov/foia/action/public/home) is an **official**, **closed source** portal operated by the [Environmental Protection Agency](http://www.epa.gov/) (EPA).
 
-FOIAonline allows citizens to request information directly from participating agencies. At time of this writing, there are 8: [National Archives](http://www.archives.gov/), [Commerce](http://www.commerce.gov/), [CBP](http://www.cbp.gov/), EPA, [FLRA](http://www.flra.gov/), [MSPB](http://www.mspb.gov/), [PBGC](http://www.pbgc.gov/), and the [Navy](http://www.navy.mil/). FOIAonline will be adding more agencies soon.
+FOIAonline allows citizens to request information directly from participating
+agencies. At time of this writing, there are [16 participating
+agencies](https://foiaonline.regulations.gov/foia/action/public/home/agencyTable).
+Information available includes requests, appeals, and response documents. The
+information grows as agencies process additional requests.
 
 FOIAonline is funded at least in part through the financial support of participating agencies.
 
