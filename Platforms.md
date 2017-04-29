@@ -202,6 +202,22 @@ It's not obvious what the publication policy is for all requests on all deployed
 
 ## Froide
 
-[Froide](http://stefanw.github.io/froide/) is a Freedom of Information platform. It is an [open source](https://github.com/stefanw/froide) platform written in Python with Django 1.5. Froide was designed to mimic the functionality of [What do they know](http://whatdotheyknow.com/).
+_Updated: 2017-04-28_
+
+[Froide](http://froide.fragdenstaat.de/) is an **unofficial**, **[open
+source](https://github.com/okfde/froide)** Freedom of Information platform used
+in [Germany](https://fragdenstaat.de/) and [Austria](https://fragdenstaat.at/).
+It was designed to mimic the functionality of [What do they
+know](http://whatdotheyknow.com/).
 
 [According to the website](http://froide.readthedocs.org/en/latest/about/), Froide connects entities through a man-to-many relationship to allow the public body to be accountable under different laws. Requests are mailed to public bodies through the platform via a special, request-unique email address. It offers a read/write REST-API and redaction of PDFs.
+
+The platform is internationalized so it can be used in other languages.
+
+
+### Technology
+
+- Python/Django
+- django-haystack for abstract search
+- Apache Solr as search provider
+- Hosted REST API
