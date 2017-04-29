@@ -125,12 +125,12 @@ _(Per Kickstarter video)_
 
 _Updated: 2017-04-28_
 
-[iFOIA](ifoia.org) is a **closed-source** platform that allows users to generate
-new requests for information from state and federal offices. iFOIA requires
-a user to register for an account and generate requests. This process guides
-users through the entire information request process. Once complete, the user is
-able to send the information electronically or print the completed request to
-send offline.
+[iFOIA](ifoia.org) is an **unofficial**, **closed source** platform that allows
+users to generate new requests for information from state and federal offices.
+iFOIA requires a user to register for an account and generate requests. This
+process guides users through the entire information request process. Once
+complete, the user is able to send the information electronically or print the
+completed request to send offline.
 
 Once completed, the user is able to maintain open and completed requests, as
 well as share requests with others. One additional feature is an ability to
