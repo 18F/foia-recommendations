@@ -25,7 +25,11 @@ filing requests, scanning documents, supporting embargoed responses, and custom
 plans for large organizations. Users are also able to crowdsource finances to
 cover request fees.
 
-MuckRock received some initial funding by the [Knight Foundation](http://www.knightfoundation.org/press-room/press-mention/knight-innovation-ard-win-selects-muckrock-25/), [Freedom of the Press Foundation](https://pressfreedomfoundation.org/organization/muckrock-news), and the [Sunlight Foundation](http://sunlightfoundation.com/about/grants/).
+MuckRock received some initial funding by the [Knight
+Foundation](https://www.knightfoundation.org/press-room/press-mention/knight-innovation-ard-win-selects-muckrock-25/),
+[Freedom of the Press
+Foundation](https://web.archive.org/web/20140728191930/https://pressfreedomfoundation.org/organization/muckrock-news),
+and the [Sunlight Foundation](https://sunlightfoundation.com/about/grants/).
 
 The platform was open sourced under the AGPL license in [November
 2016](https://www.muckrock.com/news/archives/2016/nov/29/muckrock-goes-open-source/).
@@ -53,7 +57,7 @@ _Updated: 2016-04-28_
 source](https://github.com/codeforamerica/recordtrac)** portal for the City of Oakland, California.
 
 It was [developed by Code for America's
-fellows](http://www.codeforamerica.org/blog/2013/10/01/recordtrac-easy-access-to-public-records/)
+fellows](https://www.codeforamerica.org/blog/2013/10/01/recordtrac-easy-access-to-public-records/)
 working alongside the City of Oakland. It processes requests for California's
 FOIA equivalent, the [California Public Records
 Act](https://en.wikipedia.org/wiki/California_Public_Records_Act).
@@ -95,12 +99,18 @@ November 2016:
 
 Aimed at an audience of journalists, users make FOIA requests through FOIA Machine, which then submits your request to any of multiple governments on your behalf. Users can track request status, and receive responses to their requests.
 
-FOIA Machine was originally funded with a bit under $50,000 through a [prototype grant from the Knight Foundation](http://www.knightfoundation.org/grants/20102529/). CIR built an alpha with this funding, and then requested further funding through a [successful Kickstarter campaign](https://www.kickstarter.com/projects/cir/foia-machine) that raised a bit over $50,000.
+FOIA Machine was originally funded with a bit under $50,000 through a [prototype
+grant from the Knight
+Foundation](https://www.knightfoundation.org/grants/20102529/). CIR built an
+alpha with this funding, and then requested further funding through
+a [successful Kickstarter
+campaign](https://www.kickstarter.com/projects/cir/foia-machine) that raised
+a bit over $50,000.
 
 ~The site works, and there are [public
-requests](https://www.foiamachine.org/requests/public/), but it's not clear how
-information is released. Even the requests marked as "Fulfilled" have no visible
-information for public download. Their
+requests](https://web.archive.org/web/20160921030020/https://www.foiamachine.org/requests/public/),
+but it's not clear how information is released. Even the requests marked as
+"Fulfilled" have no visible information for public download. Their
 [updates](https://www.kickstarter.com/projects/cir/foia-machine/posts) indicate
 progress is continuing.~
 
@@ -150,9 +160,9 @@ _Updated: 2017-04-28_
 maintained by the Department of Justice that focuses on providing information
 about the FOIA and its administration. The site publishes statistical
 information about the administration of FOIA, which comes from the [annual Chief
-FOIA Officer reports](http://www.justice.gov/oip/reports-1). The site also
+FOIA Officer reports](https://www.justice.gov/oip/reports-1). The site also
 publishes contact information for the various [FOIA
-offices](http://www.foia.gov/report-makerequest.html) across the Federal
+offices](https://www.foia.gov/report-makerequest.html) across the Federal
 government.
 
 FOIA.gov provides a [basic web search](https://www.foia.gov/search.html)
@@ -163,7 +173,9 @@ powered by bing.com.
 
 _Updated: 2017-04-28_
 
-[FOIAonline](https://foiaonline.regulations.gov/foia/action/public/home) is an **official**, **closed source** portal operated by the [Environmental Protection Agency](http://www.epa.gov/) (EPA).
+[FOIAonline](https://foiaonline.regulations.gov/foia/action/public/home) is an
+**official**, **closed source** portal operated by the [Environmental Protection
+Agency](https://www.epa.gov/) (EPA).
 
 FOIAonline allows citizens to request information directly from participating
 agencies. At time of this writing, there are [16 participating
@@ -182,15 +194,15 @@ Requests that result in the release of records can make those records publicly a
 
 _Updated: 2017-04-28_
 
-[Alaveteli](http://www.alaveteli.org/) is an **unofficial**, **[open
+[Alaveteli](http://alaveteli.org/) is an **unofficial**, **[open
 source](https://github.com/mysociety/alaveteli/)** information request platform,
 built by the UK organization mySociety. It is the result of generalizing the
 platform they built for [WhatDoTheyKnow](https://www.whatdotheyknow.com/).
 
-Alavateli has [extensive documentation](http://code.alaveteli.org/),
+Alavateli has [extensive documentation](http://alaveteli.org/),
 a reasonably active [mailing
 list](https://groups.google.com/forum/#!forum/alaveteli-dev), and a [dedicated
-blog](http://www.alaveteli.org/blog/).
+blog](https://www.mysociety.org/category/alaveteli/).
 
 It's not obvious what the publication policy is for all requests on all deployed instances. On WhatDoTheyKnow, you can read the [full back-and-forth](https://www.whatdotheyknow.com/request/removal_of_entitlements_and_lack#comment-50953) between requestor and agency, and download released data.
 
@@ -208,9 +220,13 @@ _Updated: 2017-04-28_
 source](https://github.com/okfde/froide)** Freedom of Information platform used
 in [Germany](https://fragdenstaat.de/) and [Austria](https://fragdenstaat.at/).
 It was designed to mimic the functionality of [What do they
-know](http://whatdotheyknow.com/).
+know](https://www.whatdotheyknow.com/).
 
-[According to the website](http://froide.readthedocs.org/en/latest/about/), Froide connects entities through a man-to-many relationship to allow the public body to be accountable under different laws. Requests are mailed to public bodies through the platform via a special, request-unique email address. It offers a read/write REST-API and redaction of PDFs.
+[According to the website](https://froide.readthedocs.io/en/latest/about/),
+Froide connects entities through a man-to-many relationship to allow the public
+body to be accountable under different laws. Requests are mailed to public
+bodies through the platform via a special, request-unique email address. It
+offers a read/write REST-API and redaction of PDFs.
 
 The platform is internationalized so it can be used in other languages.
 
