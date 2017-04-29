@@ -159,15 +159,6 @@ FOIA.gov provides a [basic web search](https://www.foia.gov/search.html)
 powered by bing.com.
 
 
-## Alavateli
-
-[Alaveteli](http://www.alaveteli.org/) is an information request platform, built by the UK organization mySociety. It is an [open source](https://github.com/mysociety/alaveteli/) platform written in Rails, and the result of generalizing the platform they built for [WhatDoTheyKnow](https://www.whatdotheyknow.com/).
-
-Alavateli has [extensive documentation](http://code.alaveteli.org/), a reasonably active [mailing list](https://groups.google.com/forum/#!forum/alaveteli-dev), and a [dedicated blog](http://www.alaveteli.org/blog/).
-
-It's not obvious what the publication policy is for all requests on all deployed instances. On WhatDoTheyKnow, you can read the [full back-and-forth](https://www.whatdotheyknow.com/request/removal_of_entitlements_and_lack#comment-50953) between requestor and agency, and download released data.
-
-
 ## FOIAonline
 
 _Updated: 2017-04-28_
@@ -185,6 +176,28 @@ FOIAonline is funded at least in part through the financial support of participa
 FOIAonline allows you to [search](https://foiaonline.regulations.gov/foia/action/public/search) FOIA requests that have been made through its system. It's not clear whether one can browse without knowing a search term in advance.
 
 Requests that result in the release of records can make those records publicly available, as on this [FOIA request to the EPA](https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d28016293b). A "partial grant/partial denial", there are 126 documents attached to the request, mainly PDFs. There appears to be no requestor/agency discussion visible to the public, beyond the original request, nor any explanation for the partial grant/denial.
+
+
+## Alavateli
+
+_Updated: 2017-04-28_
+
+[Alaveteli](http://www.alaveteli.org/) is an **unofficial**, **[open
+source](https://github.com/mysociety/alaveteli/)** information request platform,
+built by the UK organization mySociety. It is the result of generalizing the
+platform they built for [WhatDoTheyKnow](https://www.whatdotheyknow.com/).
+
+Alavateli has [extensive documentation](http://code.alaveteli.org/),
+a reasonably active [mailing
+list](https://groups.google.com/forum/#!forum/alaveteli-dev), and a [dedicated
+blog](http://www.alaveteli.org/blog/).
+
+It's not obvious what the publication policy is for all requests on all deployed instances. On WhatDoTheyKnow, you can read the [full back-and-forth](https://www.whatdotheyknow.com/request/removal_of_entitlements_and_lack#comment-50953) between requestor and agency, and download released data.
+
+
+### Technology
+
+- Ruby/Rails
 
 
 ## Froide
