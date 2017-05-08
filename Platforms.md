@@ -3,11 +3,14 @@
 _Non-authoritative FOIA research, curated by 18F, a digital delivery team in the
 US federal government._
 
-A number of public platforms have been built to process Freedom of Information requests. 
+A number of public platforms have been built to process Freedom of Information
+requests.
 
-This list does not include proprietary or internal solutions that requestors do not see, such as [FOIAXpress](http://www.foiaxpress.com/).
+This list does not include proprietary or internal solutions that requestors do
+not see.
 
-We can't guarantee the accuracy of this page -- it represents initial research of team members, and could be incomplete or become out-of-date.
+We can't guarantee the accuracy of this page -- it represents initial research
+of team members, and could be incomplete or become out-of-date.
 
 
 ## Alavateli
@@ -121,6 +124,23 @@ FOIAonline is funded at least in part through the financial support of participa
 FOIAonline allows you to [search](https://foiaonline.regulations.gov/foia/action/public/search) FOIA requests that have been made through its system. It's not clear whether one can browse without knowing a search term in advance.
 
 Requests that result in the release of records can make those records publicly available, as on this [FOIA request to the EPA](https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d28016293b). A "partial grant/partial denial", there are 126 documents attached to the request, mainly PDFs. There appears to be no requestor/agency discussion visible to the public, beyond the original request, nor any explanation for the partial grant/denial.
+
+
+## FOIAXpress Public Access Link
+
+_Updated: 2017-05-03_
+
+[FOIAXpress PAL](http://ains.com/pal-web-portal/) is an **official**, **closed
+source**, add-on to FOIAXpress providing a public web portal to submit and track
+FOIA requests. [US Department of
+Agriculture](https://efoia-pal.usda.gov/App/Home.aspx) is one agency using
+FOIAXpress PAL.
+
+On its own, FOIAXpress is a commercial off-the-shelf web-based application for
+processing FOIA and Privacy Act requests. FOIAXpress can be used by federal
+agencies and offices as well as state and local governments. Not all FOIAXpress
+users have the PAL add-on.
+
 
 ## Froide
 
