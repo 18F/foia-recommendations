@@ -41,8 +41,8 @@ exclusions.
 
 ##### FOIA Public Liaison
 
-Designated by the Chief FOIA Officer who is responsible for acting as the public
-contact for addressing concerns of requesters related to FOIA administration.
+Responsible for acting as the public contact for addressing concerns of
+requesters related to FOIA administration. Designated by the Chief FOIA Officer.
 
 
 ##### PII
@@ -71,6 +71,10 @@ information on its own.
 
 ##### release to three, release to all
 
+Per the FOIA 1996 amendment, if a set of records is requested three times, the
+FOIA indicates the documents should be made permanently public, which forms the
+basis of the “reading room” provision.
+
 
 ##### requester
 
@@ -81,3 +85,6 @@ A person or organization making or about to make a FOIA request.
 
 A completed FOIA request which may contain a letter describing the contents of
 the response, documents related to the request, and instructions for appeal.
+
+
+##### responsive document
