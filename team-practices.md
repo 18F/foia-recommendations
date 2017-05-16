@@ -12,11 +12,18 @@ with our 18F team, and daily standups with the DOJ team.
 We use Github + Zenhub for issue tracking. We create issues as necessary to capture stories
 and articulate requirements for specific tasks. Our kanban categories for describing the state of
 issues are:
- * New
- * Backlog
- * In Progress
- * Review / QA
- * Closed
+
+### New
+
+### Icebox
+
+### Backlog
+
+### In Progress
+
+### Review / QA
+
+### Closed
 
 ## Pull Requests
 
