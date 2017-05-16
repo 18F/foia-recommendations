@@ -19,7 +19,9 @@ Default for created issues.
 
 #### Icebox
 
-Has not yet been groomed.
+The Icebox is where items go that have lower priority or we are unsure of their state.
+This tends to be the dumping grounds of things we'd like to do but there are many
+other things with higher priority.
 
 #### Backlog
 
