@@ -28,6 +28,8 @@ keep_files:
   - assets/vendor
   - assets/js
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - bin
   - node_modules
   - npm-debug.log
