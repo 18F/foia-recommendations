@@ -9,26 +9,28 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: FOIA request prototype
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A prototype exploring how the public might submit a FOIA request through
+  a single national portal.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+agency:
+  name: Office of Information Policy
+  email: info@agency.gov
 
 # Build settings
+#
+# You probably don't change these unless you know what you're doing :)
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+keep_files:
+  - assets/fonts
+  - assets/img
+  - assets/vendor
+  - assets/js
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - bin
+  - node_modules
+  - npm-debug.log
+  - package.json
+  - README.md
+  - src
