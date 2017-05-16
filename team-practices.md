@@ -13,17 +13,29 @@ We use Github + Zenhub for issue tracking. We create issues as necessary to capt
 and articulate requirements for specific tasks. Our kanban categories for describing the state of
 issues are:
 
-### New
+#### New
 
-### Icebox
+Default for created issues.
 
-### Backlog
+#### Icebox
 
-### In Progress
+Has not yet been groomed.
 
-### Review / QA
+#### Backlog
 
-### Closed
+Groomed and ready to be pulled into "In Progress".
+
+#### In Progress
+
+Currently being worked on. Limit 2 per assignee.
+
+#### Review / QA
+
+PR opened and/or task ready for team feedback.
+
+#### Closed
+
+Issue completed.
 
 ## Pull Requests
 
