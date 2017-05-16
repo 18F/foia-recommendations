@@ -8,7 +8,7 @@
     "build": "npm run build-js && npm run build-thirdparty",
     "build-js": "mkdir -p _site/assets/js && for entrypoint in src/*.js; do bundle_name=$(basename $entrypoint .js); browserify $entrypoint -o _site/assets/js/${bundle_name}.bundle.js; done",
     "build-thirdparty": "bin/build-thirdparty.sh",
-    "serve": "npm run build && jekyll serve",
+    "serve": "npm run build && bundle exec jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

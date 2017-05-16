@@ -10,13 +10,14 @@ This site uses [Jeykll][jekyll-site] to build and serve the website
 and [npm][npm-site] to manage dependencies.
 
 - Install npm with [Node][node-download]
-- Install [Jekyll][jekyll-site]
+- Install [Bundler](https://bundler.io/) with `gem install bundler`
 
 
 ## Usage
 
 Install the dependencies and start the development server.
 
+    $ bundle install
     $ npm install
     $ npm run build
     $ npm run serve
