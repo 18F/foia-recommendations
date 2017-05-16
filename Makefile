@@ -8,4 +8,8 @@ setup:
 	bundle install && \
 	npm install
 
-.PHONY: build setup
+run:
+	cd prototypes/form-wizard && \
+	npm run serve
+
+.PHONY: build setup run
