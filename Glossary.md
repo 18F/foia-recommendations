@@ -73,7 +73,8 @@ information on its own.
 
 Per the FOIA 1996 amendment, if a set of records is requested three times, the
 FOIA indicates the documents should be made permanently public, which forms the
-basis of the “reading room” provision.
+basis of the [“reading room”
+provision](https://www.justice.gov/oip/blog/foia-post-2003-foia-counselor-qa-frequently-requested-records).
 
 
 ##### requester
