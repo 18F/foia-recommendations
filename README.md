@@ -1,4 +1,16 @@
-For now, we're just getting started. DOJ Office of Information Policy has posted a [blog post about the project](https://www.justice.gov/oip/blog/oip-seeks-your-participation-development-national-foia-portal).
+# FOIA 2.0 Discovery
+
+## About
+
+DOJ Office of Information Policy has posted a [blog post about the project](https://www.justice.gov/oip/blog/oip-seeks-your-participation-development-national-foia-portal).
+
+## Build the prototypes
+
+```bash
+ % make setup
+ % make build
+ % make run
+```
 
 ## From our Interagency Agreement with DOJ:
 

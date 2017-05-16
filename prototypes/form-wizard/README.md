@@ -24,6 +24,13 @@ Install the dependencies and start the development server.
 
 Open your browser to [http://localhost:4000/](http://localhost:4000/).
 
+## FOIA contact data
+
+By default the build process will assume that the repo at git@github.com:18F/2015-foia.git
+is checked out at the same directory level as the foia-recommendations repo. You can
+override that default by setting the `FOIA_AGENCY_DIR` environment variable
+to wherever you have `2015-foia/contacts/data` located on your local file system.
+
 
 [jekyll-site]: https://jekyllrb.com/
 [node-download]: https://nodejs.org/en/download/
