@@ -4,4 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## What is FOIA?
+
+The U.S. Freedom of Information Act (FOIA, for short) allows the public the
+right to request access to government records.
+
+Under FOIA, government agencies are required to disclose requested information
+unless it falls under one of nine exemptions that protect interests such as
+personal privacy, national security, and law enforcement.
+
+[Learn more at FOIA.gov](http://www.foia.gov/about.html)

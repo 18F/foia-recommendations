@@ -2,6 +2,7 @@
 layout: page
 title: Getting started
 permalink: /getting-started/
+published: false
 ---
 
 You can edit `getting-started.md` to change this page. Jekyll understands many
