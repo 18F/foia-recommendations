@@ -1,6 +1,5 @@
 build:
 	cd prototypes/form-wizard && \
-	bundle exec jekyll build && \
 	npm run build
 
 setup:
