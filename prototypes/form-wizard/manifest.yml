@@ -1,0 +1,5 @@
+---
+buildpack: staticfile_buildpack
+path: _site
+memory: 64M
+name: foia-form-wizard
