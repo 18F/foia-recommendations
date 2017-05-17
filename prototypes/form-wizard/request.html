@@ -1,0 +1,76 @@
+---
+layout: page
+title: Create a FOIA request
+permalink: /request/
+---
+
+<p>Here’s where you can create a FOIA request in three steps.</p>
+<ol>
+  <li>Enter your contact information.</li>
+  <li>Describe your request.</li>
+  <li>Identify any details about how the request should be processed.</li>
+</ol>
+
+<form action="" method="get" class="usa-form">
+  <fieldset>
+    <legend>Contact information</legend>
+
+    <label for="name">Name</label>
+    <input id="name" type="text">
+
+    <label for="organization">Organization</label>
+    <input id="organization" type="text">
+
+    <label for="email" class="usa-input-required">Email address</label>
+    <input id="email" type="email">
+
+    <label for="phone">Phone number</label>
+    <input id="phone" type="tel">
+  </fieldset>
+
+  <fieldset>
+    <legend>Request details</legend>
+
+    <label for="subject" class="usa-input-required">Subject</label>
+    <input id="subject" type="text">
+
+    <label for="description" class="usa-input-required">Description</label>
+    <textarea id="description"></textarea>
+
+    <label for="attachments">Attachments</label>
+    <input id="attachments" type="file">
+  </fieldset>
+
+  <fieldset>
+    <legend>Processing details</legend>
+
+    <label for="agency">Agency name</label>
+    <select id="agency">
+      <option value="usda">Department of Agriculture</option>
+      <option value="doj">Department of Justice</option>
+      <option value="gsa">General Services Administration</option>
+      <option value="i-dont-know">I don’t know</option>
+    </select>
+
+    <label for="component">Sub-agency/office/department</label>
+    <select id="component">
+      <option value="front-office">Front office</option>
+      <option value="i-dont-know">I don’t know</option>
+    </select>
+
+    <label for="fees">I’m willing to pay fees up to this amount</label>
+    <input id="fees" type="text">
+
+
+    <input id="fee-waiver" type="checkbox">
+    <label for="fee-waiver">I’d like to request a fee waiver</label>
+
+    <input id="expedited" type="checkbox">
+    <label for="expedited">I’d like to request expedited processing</label>
+  </fieldset>
+
+  <div class="form-controls-inline">
+    <button id="submit" class="usa-button" type="submit">Submit</button>
+    <button id="reset" class="usa-button usa-button-secondary" type="reset">Reset</button>
+  </div>
+</form>

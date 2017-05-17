@@ -1,3 +1,15 @@
 .main-content {
   margin-top: 4rem;
 }
+
+.usa-form {
+  fieldset + fieldset {
+    margin-top: 2rem;
+  }
+}
+
+.form-controls-inline {
+  button {
+    display: inline;
+  }
+}
