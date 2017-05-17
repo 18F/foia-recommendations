@@ -1,2 +1,7 @@
+// disable bourbon deprecation warnings
+// https://github.com/18F/web-design-standards/issues/1904
+$output-bourbon-deprecation-warnings: false !default;
+
+
 // Import US Web Design Standards
 @import "../node_modules/uswds/src/stylesheets/all.scss";
