@@ -1,11 +1,13 @@
 # FOIA Discovery Team Practices
 
 This document describes the conventions the FOIA Discovery team has agreed to work under.
+For information about licensing, code of conduct and contributing to this project,
+see the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 ## Sprints
 
-We do one-week sprints, with a retro and planning meeting every Monday. We have daily standups
-with our 18F team, and daily standups with the DOJ team.
+We do one-week sprints, with a retro and planning meeting every Monday, and a sprint review
+every Friday. We have daily standups with our 18F team, and daily standups with the DOJ team.
 
 ## Issues
 
