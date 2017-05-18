@@ -44,19 +44,8 @@ permalink: /request/
   <fieldset>
     <legend>Processing details</legend>
 
-    <label for="agency">Agency name</label>
-    <select id="agency">
-      <option value="usda">Department of Agriculture</option>
-      <option value="doj">Department of Justice</option>
-      <option value="gsa">General Services Administration</option>
-      <option value="i-dont-know">I don’t know</option>
-    </select>
-
-    <label for="component">Sub-agency/office/department</label>
-    <select id="component">
-      <option value="front-office">Front office</option>
-      <option value="i-dont-know">I don’t know</option>
-    </select>
+    <label for="agency" class="usa-input-required">Agency name</label>
+    <input id="agency" type="text" size="100">
 
     <label for="fees">I’m willing to pay fees up to this amount</label>
     <input id="fees" type="text">
