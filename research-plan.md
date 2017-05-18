@@ -15,13 +15,25 @@ The goal of this research is to inform hypotheses that address the following:
 
 Prioritization is a function of how much insight I believe we have into a user group.
 
+### Requesters
+
 - Business/Industry (High priority)
 - Attorneys (High priority)
 - Medium priority (Medium priority)
 - Civic society (Low priority)
 - Journalists (Low priority)
 
-### Methods
+### Agencies
+
+- High volume
+- Low volume
+- Home grown FOIA system
+- Agencies using major FOIA platforms
+- High security/high-side systems
+
+### Software vendors
+
+## Methods
 
 - 30-45m interviews
 - Journey map: Mapping how of agencies and requesters think the process works
