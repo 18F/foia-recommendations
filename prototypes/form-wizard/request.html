@@ -46,22 +46,6 @@ permalink: /request/
 
     <label for="agency" class="usa-input-required">Agency name</label>
     <input id="agency" type="text" size="100">
-    <script>
-      jQuery(document).ready(function() {
-        $agency = jQuery('#agency');
-        $agency.typeahead({
-          minLength: 2,
-          highlight: true
-        }, {
-          limit: 10,
-          source: new Bloodhound({
-            local: FOIA.agencyNames(),
-            queryTokenizer: Bloodhound.tokenizers.whitespace,
-            datumTokenizer: Bloodhound.tokenizers.whitespace
-          })
-        });
-      });
-    </script>
 
     <label for="fees">I’m willing to pay fees up to this amount</label>
     <input id="fees" type="text">

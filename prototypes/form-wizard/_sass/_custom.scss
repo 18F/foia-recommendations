@@ -3,3 +3,33 @@
  * Add your custom SASS/SCSS styles here. Looking for plain ol' CSS? Check out
  * `assets/css/custom.css` instead.
  **/
+
+span.twitter-typeahead {
+  .tt-menu {
+    width: 30rem;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    background-color: #fff;
+    border: 0.0625rem solid #ccc;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.3rem 0.625rem rgba(0,0,0,.2);
+    cursor: pointer;
+  }
+
+  .tt-suggestion {
+    padding: 0.5rem 1.2rem;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    border-bottom: 0.0625rem solid #eee;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .tt-suggestion.active, .tt-suggestion:focus, .tt-suggestion:hover {
+    color: #fff;
+    background-color: #0071bc;
+  }
+}

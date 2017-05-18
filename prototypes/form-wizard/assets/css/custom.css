@@ -3,31 +3,3 @@
  * You can add your CSS rules here. If you're familiar with SASS/SCSS, you
  * might want to checkout `_sass/_custom.css` instead.
  **/
-
-.tt-menu {
-  width: 422px;
-  margin-top: 12px;
-  padding: 8px 0;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
-
-.tt-suggestion {
-  padding: 3px 20px;
-  font-size: 18px;
-  line-height: 24px;
-  border-bottom: 1px solid #eee;
-}
-
-.tt-suggestion.tt-cursor {
-  color: #fff;
-  background-color: #0097cf;
-  cursor: pointer;
-}
-
-.tt-suggestion p {
-  margin: 0;
-}
