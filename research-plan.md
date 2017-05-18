@@ -35,7 +35,7 @@ Prioritization is a function of how much insight I believe we have into a user g
 
 ## Methods
 
-- 30-45m interviews
+- 45m interviews
 - Journey map: Mapping how of agencies and requesters think the process works
 - Service blueprint: Neutral map documenting current process from both agency and requester perspectives.
 - Usability testing (once prototype is built)
