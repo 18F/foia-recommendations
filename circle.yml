@@ -6,6 +6,8 @@ machine:
 dependencies:
   override:
     - make setup
+  post:
+    - make build
 
 test:
   override:
