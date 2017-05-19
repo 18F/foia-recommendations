@@ -12,3 +12,12 @@ dependencies:
 test:
   override:
     - make test
+
+deployment:
+  prototype:
+    branch: adb-circle
+    commands:
+      - export PATH=$HOME/bin:$PATH
+      - curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.23.0" | tar xzv -C $HOME/bin
+      - cf install-plugin autopilot -f -r CF-Community
+      - prototypes/form-wizard/bin/cf_deploy.sh adborden-foia-auth sandbox-gsa aaron.borden prototypes/form-wizard/manifest.yml
