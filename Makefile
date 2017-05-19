@@ -11,4 +11,8 @@ run:
 	cd prototypes/form-wizard && \
 	npm run serve
 
-.PHONY: build setup run
+test:
+	cd prototypes/form-wizard && \
+	echo ok
+
+.PHONY: build setup run test

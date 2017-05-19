@@ -11,4 +11,4 @@ dependencies:
 
 test:
   override:
-    - echo ok
+    - make test
