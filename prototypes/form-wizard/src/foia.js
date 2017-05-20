@@ -1,11 +1,12 @@
+/* global AGENCIES */
 var FOIA = {
-  agencyNames: function() {
-    return jQuery.map(AGENCIES, function(el, idx) { return idx }).sort();
+  agencyNames: function () {
+    return jQuery.map(AGENCIES, function (el, idx) { return idx; }).sort();
   }
 };
 
-jQuery(document).ready(function() {
-  $agency = jQuery('#agency');
+jQuery(document).ready(function () {
+  var $agency = jQuery('#agency');
   $agency.typeahead({
     minLength: 2,
     highlight: true

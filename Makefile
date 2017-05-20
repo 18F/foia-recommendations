@@ -13,6 +13,7 @@ run:
 
 test:
 	cd prototypes/form-wizard && \
-	bundle exec htmlproofer ./_site --check-html --disable-external
+	bundle exec htmlproofer ./_site --check-html --disable-external && \
+	npm test
 
 .PHONY: build setup run test
