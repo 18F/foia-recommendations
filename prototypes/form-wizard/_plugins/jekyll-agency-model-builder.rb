@@ -6,8 +6,8 @@ module Jekyll
     safe true
 
     DEFAULT_YAML_DIR = __dir__ + '/../../../../2015-foia/contacts/data'
-    OUTPUT_DIR = 'assets'
-    OUTPUT_FILE = '_site/' + OUTPUT_DIR + '/agencies.json'
+    OUTPUT_DIR = 'assets/js'
+    OUTPUT_FILE = '_site/' + OUTPUT_DIR + '/agencies.js'
 
     def generate(site)
       agencies = load_yaml_files(ENV.fetch('FOIA_AGENCY_DIR', DEFAULT_YAML_DIR))
@@ -46,7 +46,7 @@ module Jekyll
     def write_page(agencies)
       FileUtils.mkdir_p(File.dirname(OUTPUT_FILE))
       File.open(OUTPUT_FILE, 'w+') do |file|
-        file.write agencies.to_json
+        file.write "var AGENCIES = #{agencies.to_json};"
       end
     end
   end

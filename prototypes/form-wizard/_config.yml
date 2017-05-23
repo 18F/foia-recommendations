@@ -31,6 +31,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - bin
+  - manifest.yml
   - node_modules
   - npm-debug.log
   - package.json

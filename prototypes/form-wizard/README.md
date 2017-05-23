@@ -31,6 +31,26 @@ is checked out at the same directory level as the foia-recommendations repo. You
 override that default by setting the `FOIA_AGENCY_DIR` environment variable
 to wherever you have `2015-foia/contacts/data` located on your local file system.
 
+## Deployment
+
+This prototype is deployed as a static application to
+[cloud.gov](https://cloud.gov/) behind Basic authentication. Team members should
+request the username/passphrase from their teammates.
+
+The Basic authentication is configured via `Staticfile.auth` and is configured
+in our continuous deployment pipeline. The `$STATICAUTHFILE` secret environment
+variable must be set. To create the `$STATICAUTHFILE` hash, use `mkpasswd` or
+`htpasswd` as available.
+
+1. `mkpasswd -m sha-512 "your secret passphrase"`
+   This creates a hash that looks something like
+   `$6$asdfjkl$ljklsajfkldsjakfldjaklfjdskalfdsaljfkdlsaajfkdlsaf`
+2. Prepend the hash with the username and `:`.
+   `userbob:$6$asdfjkl$ljklsajfkldsjakfldjaklfjdskalfdsaljfkdlsaajfkdlsaf`
+3. Set `$STATICAUTHFILE` to this value. Be sure to shell escape it as
+   appropriate. In CircleCI, this means escaping all the `$` characters as `\$`.
+   `userbob:\$6\$asdfjkl\$ljklsajfkldsjakfldjaklfjdskalfdsaljfkdlsaajfkdlsaf`
+
 
 [jekyll-site]: https://jekyllrb.com/
 [node-download]: https://nodejs.org/en/download/
