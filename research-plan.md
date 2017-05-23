@@ -8,8 +8,9 @@ Initial research on National FOIA Portal. Attempting to focus on speaking to use
 
 The goal of this research is to inform hypotheses that address the following:
 - How might we create a platform that improves the FOIA requesting experience?
-- How might we create a platform that increases the quality of FOIA requests?
-- How might various FOIA requesters use a national FOIA platform?
+- How might we make it easier for the agencies to respond to requests?
+- How might various FOIA requesters benefit from a national FOIA platform?
+- How might agency processes be improved or enhanced by a national FOIA platform?
 
 ## User groups
 
@@ -19,7 +20,7 @@ Prioritization is a function of how much insight I believe we have into a user g
 
 - Business/Industry (High priority)
 - Attorneys (High priority)
-- Medium priority (Medium priority)
+- Individual one-off requesters (High priority)
 - Civic society (Low priority)
 - Journalists (Low priority)
 
@@ -27,8 +28,8 @@ Prioritization is a function of how much insight I believe we have into a user g
 
 - High volume
 - Low volume
-- Home grown FOIA system
 - Agencies using major FOIA platforms
+- Home grown, manual FOIA system
 - High security/high-side systems
 
 ### Software vendors
@@ -58,6 +59,7 @@ Note: Avoid detailing project scope until after the interview is complete.
 - Have you ever sent the same request to multiple agencies?
 - How do you track the progress of your request?
 - Have you experienced stalled requests? If so, what have you done in response?
+- How often do you feel you've received what you were looking for at the end of the request process?
 - What agencies have you interacted with that you have had a particular good experience with regard to FOIA?
 - Have you ever had a particularly frustrating experience with a FOIA request? (Tell us about it)
 - If you could wave a magic wand to address one issue in the FOIA space, what would that issue be?
@@ -68,8 +70,8 @@ Note: Avoid detailing project scope until after the interview is complete.
 	- duplicates?
 	- not perfected?
 	- directed to the wrong agency?
-- How many documents do you have in your FOIA reading room?
-	- How do you determine what documents will be published?
-	- Are there any technical barriers to posting more documents online?
-- What contributes to an increased request backlog for your agency?
+- Is there a common set of steps 
+- How do you determine what documents will be published to a public reading room?
+- Are there any technical barriers to posting more documents online?
+- What makes a request difficult to fulfill?
 - If you could wave a magic wand to address one issue in the FOIA space, what would that issue be?
