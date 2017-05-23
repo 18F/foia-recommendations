@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/18F/foia-recommendations.svg?style=svg)](https://circleci.com/gh/18F/foia-recommendations)
+
 # National FOIA Site Research and Recommendations
 
 ## About
