@@ -74,4 +74,7 @@ Note: Avoid detailing project scope until after the interview is complete.
 - How do you determine what documents will be published to a public reading room?
 - Are there any technical barriers to posting more documents online?
 - What makes a request difficult to fulfill?
+- Post mail/fax/email, as applicable
+  - How might a National FOIA web platform impact requests submitted through post mail, fax, or email?
+  - **OR** How has your agency's FOIA request web submission site impacted requests submitted through post mail, fax, or email?
 - If you could wave a magic wand to address one issue in the FOIA space, what would that issue be?
