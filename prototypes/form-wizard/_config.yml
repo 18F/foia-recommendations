@@ -21,6 +21,7 @@ agency:
 # Build settings
 #
 # You probably don't change these unless you know what you're doing :)
+safe: true
 markdown: kramdown
 keep_files:
   - assets/fonts
