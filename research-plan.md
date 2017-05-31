@@ -70,6 +70,8 @@ Note: Avoid detailing project scope until after the interview is complete.
 	- duplicates?
 	- not perfected?
 	- directed to the wrong agency?
+	- missing information?
+	- for information that is already available publicly?
 - What are the phases in the response process? (This is around statuses)
 - How do you determine what documents will be published to a public reading room?
 - Are there any technical barriers to posting more documents online?
