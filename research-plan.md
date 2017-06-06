@@ -27,7 +27,6 @@ The goal of this research is to inform hypotheses that address the following:
 
 - High volume
 - Low volume
-
 - Agencies using major FOIA platforms (ex: FOIAOnline)
 - Custom FOIA system
 - Manual (ex: spreadsheets)
