@@ -14,23 +14,24 @@ The goal of this research is to inform hypotheses that address the following:
 
 ## User groups
 
-Prioritization is a function of how much insight I believe we have into a user group.
-
 ### Requesters
 
-- Business/Industry (High priority)
-- Attorneys (High priority)
-- Individual one-off requesters (High priority)
-- Civic society (Low priority)
-- Journalists (Low priority)
+- Business/Industry and regulated community
+- Attorneys
+- Individual first-time requesters
+- Civic society
+- Journalists
+- University researchers
 
-### Agencies
+### Agencies and components
 
 - High volume
 - Low volume
-- Agencies using major FOIA platforms
-- Home grown, manual FOIA system
-- High security/high-side systems
+
+- Agencies using major FOIA platforms (ex: FOIAOnline)
+- Custom FOIA system
+- Manual (ex: spreadsheets)
+- High security systems
 
 ### Software vendors
 
