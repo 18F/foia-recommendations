@@ -26,6 +26,10 @@ Open your browser to [http://localhost:4000/](http://localhost:4000/).
 
 ## FOIA contact data
 
+The `agencies.js` file is built and checked into git. If you need to rebuild it,
+you will need to disable the `safe` setting in `_config.yml` and make sure
+you have the repo described below.
+
 By default the build process will assume that the repo at git@github.com:18F/2015-foia.git
 is checked out at the same directory level as the foia-recommendations repo. You can
 override that default by setting the `FOIA_AGENCY_DIR` environment variable

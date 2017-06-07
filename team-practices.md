@@ -11,7 +11,8 @@ every Friday. We have daily standups with our 18F team, and daily standups with 
 
 ## Issues
 
-We use Github + Zenhub for issue tracking. We create issues as necessary to capture stories
+We use Github + [Zenhub](https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd)
+for issue tracking. We create issues as necessary to capture stories
 and articulate requirements for specific tasks. Our kanban categories for describing the state of
 issues are:
 
