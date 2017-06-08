@@ -84,10 +84,10 @@ In order for a National FOIA Platform to submit requests to an agency, the
 agency must publish a FOIA metadata JSON file. [Project Open
 Data](https://project-open-data.cio.gov/v1.1/schema/) is an example of
 a metadata file schema that allows for open government datasets to be
-cataloged.
+cataloged by third-parties.
 
 The FOIA metadata file should instruct the Platform:
-- what methods for submission are supported for submission
+- what methods for submission are supported by the agency
 - what additional fields are required for a perfected request
 - what additional fields the agency would like to collect
 - explanation of additional requirements†
