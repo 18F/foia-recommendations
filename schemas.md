@@ -139,7 +139,7 @@ Platform.
 
 #### HTTPS API
 
-For agencies that can provide an HTTPS API, the API should accept a `PUT` request
+For agencies that can provide an HTTPS API, the API should accept a `POST` request
 containing the [request schema](#creating-a-request) above.
 
 The metadata file should contain this additional data as part of the submission
