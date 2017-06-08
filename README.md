@@ -18,11 +18,21 @@ The following two paragraphs are from the FOIA Improvement Act that are related 
 
 ## Build the prototypes
 
+The prototypes require:
+
+* Ruby 2.3.1
+* Node package manager (npm)
+* make
+
+Once those prerequisites are installed, you can build the prototypes with:
+
 ```bash
  % make setup
  % make build
  % make run
 ```
+
+See the README.md file in each prototype for more details.
 
 ## From our Interagency Agreement with DOJ:
 
