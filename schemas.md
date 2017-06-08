@@ -108,6 +108,7 @@ and allay any concerns._
   * name
   * label
   * help text
+* uiSchema describing form presentation
 * reading room URL
 * FOIA contact information
   * name
@@ -168,3 +169,16 @@ Optionally:
   * size
   * number of attachments
 * public encryption key
+
+
+### uiSchema for form presentation
+
+In order to present the form to the requester as the agency intends, the agency
+can include a limited version of
+a [uiSchema](https://github.com/mozilla-services/react-jsonschema-form#the-uischema-object)
+that can be used to describe how the additional fields should be rendered.
+
+* ui:order
+* field(s)
+  * ui:widget
+  * ui:placeholder
