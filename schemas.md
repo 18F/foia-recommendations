@@ -77,3 +77,108 @@ CREATE TYPE possible_submission_types AS ENUM ('usps', 'fax', 'email', 'online_f
  updated_at             | timestamp without time zone | not null -- about the record, not the request
 ```
 
+
+## FOIA metadata JSON file
+
+In order for a National FOIA Platform to submit requests to an agency, the
+agency must publish a FOIA metadata JSON file. [Project Open
+Data](https://project-open-data.cio.gov/v1.1/schema/) is an example of
+a metadata file schema that allows for open government datasets to be
+cataloged by third-parties.
+
+The FOIA metadata file should instruct the Platform:
+- what methods for submission are supported by the agency
+- what additional fields are required for a perfected request
+- what additional fields the agency would like to collect
+- explanation of additional requirements†
+- FOIA contact information
+
+_† Our research has shown that users often find additional requirements for FOIA
+submission confusing and burdensome. We hope that by having agencies include
+supplemental information about the requirements, it will help inform requesters
+and allay any concerns._
+
+* submission format
+* required form fields
+  * name
+  * label
+  * URL to the regulations requiring additional information
+  * help text
+* additional form fields
+  * name
+  * label
+  * help text
+* uiSchema describing form presentation
+* reading room URL
+* FOIA contact information
+  * name
+  * title
+  * address
+  * phone
+  * fax
+  * email
+  * website
+  * notes
+  * FOIA service center
+    * name
+    * phone
+  * FOIA public liason
+    * name
+    * phone
+
+FOIA Contact information is meant to include what already exists on foia.gov.
+
+
+### Submission format
+
+In order to provide flexibility to agencies accepting submissions from the
+National FOIA Platform, there are two types of submission formats. HTTPS API and
+by email. Agencies should only accept requests directly from the National FOIA
+Platform.
+
+
+#### HTTPS API
+
+For agencies that can provide an HTTPS API, the API should accept a `POST` request
+containing the [request schema](#creating-a-request) above.
+
+The metadata file should contain this additional data as part of the submission
+format:
+
+* format: `https`
+* url
+
+
+#### Email
+
+For agencies that cannot yet provide an HTTPS API, email is a familiar
+submission mechanism. The email body will contain the submission body with any
+uploaded files as email attachments. Agencies can specify additional sub-formats
+that may be delivered by email, `text`, `headers`, `csv`.
+
+The metadata file should contain this additional data as part of the submission
+format:
+
+* format: `email`
+* email submission address
+
+Optionally:
+
+* sub format
+* attachment limit
+  * size
+  * number of attachments
+* public encryption key
+
+
+### uiSchema for form presentation
+
+In order to present the form to the requester as the agency intends, the agency
+can include a limited version of
+a [uiSchema](https://github.com/mozilla-services/react-jsonschema-form#the-uischema-object)
+that can be used to describe how the additional fields should be rendered.
+
+* ui:order
+* field(s)
+  * ui:widget
+  * ui:placeholder
