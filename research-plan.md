@@ -66,18 +66,6 @@ Note: Avoid detailing project scope until after the interview is complete.
 
 ### Agency
 
-<<<<<<< HEAD
-- What percentage of your requests are:
-	- duplicates?
-	- not perfected?
-	- directed to the wrong agency?
-- What are the phases in the response process? (This is around statuses)
-- How do you determine what documents will be published to a public reading room?
-- Are there any technical barriers to posting more documents online?
-- What makes a request difficult to fulfill?
-- If you could wave a magic wand to address one issue in the FOIA space, what would that issue be?
-=======
-
 - Can you describe the steps involved in responding to a FOIA request?
   - What percent of your requests come in through paper mail, fax, email, web?
   - Does the format (paper mail, fax, email, web) affect how you handle it?
@@ -89,5 +77,3 @@ Note: Avoid detailing project scope until after the interview is complete.
 - How do you determine what documents will be published to a public reading room?
   - Are there any technical barriers to posting more documents online?
 - If you could wave a magic wand to address one issue in the FOIA space, what would that issue be?
-
->>>>>>> 7d224763d85a20d6342922b4d70a482e2562681d
