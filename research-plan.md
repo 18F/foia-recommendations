@@ -99,4 +99,4 @@ Two possible tests listed. I'm not entirely sure that we'd need to run through b
 - Walk user through multiple points in request experience. Each one begins with an email at a point in the process indicating a change in status: new (immediate), assigned (1 week), record collection (month 1-7), referral (month 8-10), closed (11 months).
 - Show user status page ("After clicking the link in the email you go here./After 4 months, you check the link and see this "pending" page)
 - Ask user about what they see on the page, and how the information makes them feel. Ask if they would take any other actions at any point.
-- (Implicitly attempt to identify differences between two tests if any)
+- (Attempt to identify differences between two tests if any)
