@@ -98,17 +98,8 @@ submission confusing and burdensome. We hope that by having agencies include
 supplemental information about the requirements, it will help inform requesters
 and allay any concerns._
 
-* submission format
-* required form fields
-  * name
-  * label
-  * URL to the regulations requiring additional information
-  * help text
-* additional form fields
-  * name
-  * label
-  * help text
-* uiSchema describing form presentation
+* submission methods
+  * submission format
 * reading room URL
 * FOIA contact information
   * name
@@ -128,50 +119,38 @@ and allay any concerns._
 
 FOIA Contact information is meant to include what already exists on foia.gov.
 
-
-### Submission format
-
-In order to provide flexibility to agencies accepting submissions from the
-National FOIA Platform, there are two types of submission formats. HTTPS API and
-by email. Agencies should only accept requests directly from the National FOIA
-Platform.
+You can see [example metadata files
+here](https://github.com/18F/foia-recommendations/tree/master/examples).
 
 
-#### HTTPS API
+### Submission methods
 
-For agencies that can provide an HTTPS API, the API should accept a `POST` request
-containing the [request schema](#creating-a-request) above.
-
-The metadata file should contain this additional data as part of the submission
-format:
-
-* format: `https`
-* url
+A list of methods that the agency supports for receiving a FOIA request. Each
+method represents a different format. Example formats include `usps`, `fax`,
+`email`, `web`, and `platform`.
 
 
-#### Email
+#### Platform
 
-For agencies that cannot yet provide an HTTPS API, email is a familiar
-submission mechanism. The email body will contain the submission body with any
-uploaded files as email attachments. Agencies can specify additional sub-formats
-that may be delivered by email, `text`, `headers`, `csv`.
+If the agency wants to receive requests through the National FOIA Platform, they
+can include a `submission_method` with the `submission_format: platform`.
 
-The metadata file should contain this additional data as part of the submission
-format:
+The agency can specify additional information to be collected by the platform by
+specifying these optional fields.
 
-* format: `email`
-* email submission address
-
-Optionally:
-
-* sub format
-* attachment limit
-  * size
-  * number of attachments
-* public encryption key
+  * required form fields
+    * name
+    * label
+    * URL to the regulations requiring additional information
+    * help text
+  * additional form fields
+    * name
+    * label
+    * help text
+  * uiSchema describing form presentation
 
 
-### uiSchema for form presentation
+##### uiSchema for form presentation
 
 In order to present the form to the requester as the agency intends, the agency
 can include a limited version of
