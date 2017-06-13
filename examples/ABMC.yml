@@ -1,0 +1,16 @@
+# This would be merged with
+# https://github.com/18F/2015-foia/blob/master/contacts/data/ABMC.yaml
+abbreviation: ABMC
+departments:
+- name: American Battle Monuments Commission
+  submission_methods:
+  - submission_format: usps
+    name: Beatriz Collazo
+    title: FOIA Assistant
+    address_lines:
+    - Suite 500
+    - 2300 Clarendon Boulevard
+    - Arlington, VA 22201
+  - submission_format: email
+    email: FOIA@abmc.gov
+  - submission_format: portal

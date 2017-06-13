@@ -1,0 +1,33 @@
+# This would be merged with
+# https://github.com/18F/2015-foia/blob/master/contacts/data/USDA.yaml
+abbreviation: USDA
+departments:
+- name: Agricultural Marketing Service
+  submission_methods:
+  - submission_format: usps
+    name: Gregory Bridges
+    title: FOIA Officer
+    address_lines:
+    - AG Stop 0202, Room 3521-S
+    - 1400 Independence Avenue, SW
+    - Washington, DC 20250-0273
+  - submission_format: fax
+    fax: +12026903767
+  - submission_format: email
+    email: AMS.FOIA@USDA.gov
+  - submission_format: platform
+- name: Office of Budget & Program Analysis
+  submission_methods:
+    - submission_format: usps
+      name: Julie Hetrick
+      title: FOIA/PA Officer
+      address_lines:
+      - Room 141-E
+      - Whitten Building
+      - Washington, DC 20250
+    - submission_format: email
+      email: FOIA@obpa.usda.gov
+  - submission_format: web
+    url: https://efoia-pal.usda.gov/App/Home.aspx
+  - submission_format: platform
+# ... about 15 components omitted
