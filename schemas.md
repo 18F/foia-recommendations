@@ -122,6 +122,10 @@ FOIA Contact information is meant to include what already exists on foia.gov.
 You can see [example metadata files
 here](https://github.com/18F/foia-recommendations/tree/master/examples).
 
+The schema for this metadata file is partially inspired by the [2015 FOIA
+work](https://github.com/18F/2015-foia/tree/master/contacts/data) around
+collecting contact information.
+
 
 ### Submission methods
 
