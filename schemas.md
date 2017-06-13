@@ -91,33 +91,17 @@ The FOIA metadata file should instruct the Platform:
 - what additional fields are required for a perfected request
 - what additional fields the agency would like to collect
 - explanation of additional requirements†
-- FOIA contact information
 
 _† Our research has shown that users often find additional requirements for FOIA
 submission confusing and burdensome. We hope that by having agencies include
 supplemental information about the requirements, it will help inform requesters
 and allay any concerns._
 
-* submission methods
-  * submission format
-* reading room URL
-* FOIA contact information
+* agency abbreviation
+* list of departments
   * name
-  * title
-  * address
-  * phone
-  * fax
-  * email
-  * website
-  * notes
-  * FOIA service center
-    * name
-    * phone
-  * FOIA public liason
-    * name
-    * phone
-
-FOIA Contact information is meant to include what already exists on foia.gov.
+  * submission methods
+    * submission format
 
 You can see [example metadata files
 here](https://github.com/18F/foia-recommendations/tree/master/examples).
