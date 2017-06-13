@@ -97,10 +97,12 @@ submission confusing and burdensome. We hope that by having agencies include
 supplemental information about the requirements, it will help inform requesters
 and allay any concerns._
 
+The metadata file should include the following fields:
+
 * agency abbreviation
 * list of departments
   * name
-  * submission methods
+  * list of submission methods
     * submission format
 
 You can see [example metadata files
