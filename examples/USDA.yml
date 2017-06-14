@@ -13,7 +13,6 @@ departments:
     fax: +12026903767
   - submission_format: email
     email: AMS.FOIA@USDA.gov
-  national_platform: true
 - name: Office of Budget & Program Analysis
   submission_methods:
     - submission_format: paper
@@ -27,5 +26,4 @@ departments:
       email: FOIA@obpa.usda.gov
   - submission_format: web
     url: https://efoia-pal.usda.gov/App/Home.aspx
-  national_platform: true
 # ... about 15 components omitted

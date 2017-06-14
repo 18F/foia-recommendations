@@ -122,13 +122,9 @@ method represents a different format. Example formats include `paper`, `fax`,
 
 #### Receiving requests from a National Platform
 
-If the agency/component wants to receive requests through the National FOIA
-Platform, they can include the field `national_platform: true`.
-
 The agency can specify additional information to be collected by the platform by
 specifying these optional fields.
 
-  * national_platform: true
   * required form fields
     * name
     * label

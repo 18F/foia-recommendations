@@ -13,7 +13,6 @@ departments:
     email: GSA.FOIA@gsa.gov
   - submission_format: web
     url: https://foiaonline.regulations.gov/foia/action/public/home
-  national_platform: true
   required_form_fields:
   - name: request_origin
     label: Request Origin
@@ -42,7 +41,6 @@ departments:
       fax: +12025010414
     - submission_format: email
       email: OIGFOIA-PrivacyAct@gsaig.gov
-  national_platform: true
   required_form_fields:
   - name: request_origin
     label: Request Origin
