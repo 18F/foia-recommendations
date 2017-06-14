@@ -51,7 +51,7 @@ So, to extend our example from above, with the same caveats about normalization:
 
 ```sql
 CREATE TYPE possible_statuses AS ENUM ('new', 'assigned', 'pending', 'closed');
-CREATE TYPE possible_submission_types AS ENUM ('usps', 'fax', 'email', 'online_form');
+CREATE TYPE possible_submission_types AS ENUM ('paper', 'fax', 'email', 'online_form');
 
  id                     | integer                     | not null -- internal private id
  reference_id           | uuid                        | not null -- public id
@@ -91,87 +91,53 @@ The FOIA metadata file should instruct the Platform:
 - what additional fields are required for a perfected request
 - what additional fields the agency would like to collect
 - explanation of additional requirements†
-- FOIA contact information
 
 _† Our research has shown that users often find additional requirements for FOIA
 submission confusing and burdensome. We hope that by having agencies include
 supplemental information about the requirements, it will help inform requesters
 and allay any concerns._
 
-* submission format
-* required form fields
+The metadata file should include the following fields:
+
+* agency abbreviation
+* list of departments
   * name
-  * label
-  * URL to the regulations requiring additional information
-  * help text
-* additional form fields
-  * name
-  * label
-  * help text
-* uiSchema describing form presentation
-* reading room URL
-* FOIA contact information
-  * name
-  * title
-  * address
-  * phone
-  * fax
-  * email
-  * website
-  * notes
-  * FOIA service center
+  * list of submission methods
+    * submission format
+
+You can see [example metadata files
+here](https://github.com/18F/foia-recommendations/tree/master/examples).
+
+The schema for this metadata file is partially inspired by the [2015 FOIA
+work](https://github.com/18F/2015-foia/tree/master/contacts/data) around
+collecting contact information.
+
+
+### Submission methods
+
+A list of methods that the agency supports for receiving a FOIA request. Each
+method represents a different format. Example formats include `paper`, `fax`,
+`email`, `web` and `api`.
+
+
+#### Receiving requests from a National Platform
+
+The agency can specify additional information to be collected by the platform by
+specifying these optional fields.
+
+  * required form fields
     * name
-    * phone
-  * FOIA public liason
+    * label
+    * URL to the regulations requiring additional information
+    * help text
+  * additional form fields
     * name
-    * phone
-
-FOIA Contact information is meant to include what already exists on foia.gov.
-
-
-### Submission format
-
-In order to provide flexibility to agencies accepting submissions from the
-National FOIA Platform, there are two types of submission formats. HTTPS API and
-by email. Agencies should only accept requests directly from the National FOIA
-Platform.
+    * label
+    * help text
+  * uiSchema describing form presentation
 
 
-#### HTTPS API
-
-For agencies that can provide an HTTPS API, the API should accept a `POST` request
-containing the [request schema](#creating-a-request) above.
-
-The metadata file should contain this additional data as part of the submission
-format:
-
-* format: `https`
-* url
-
-
-#### Email
-
-For agencies that cannot yet provide an HTTPS API, email is a familiar
-submission mechanism. The email body will contain the submission body with any
-uploaded files as email attachments. Agencies can specify additional sub-formats
-that may be delivered by email, `text`, `headers`, `csv`.
-
-The metadata file should contain this additional data as part of the submission
-format:
-
-* format: `email`
-* email submission address
-
-Optionally:
-
-* sub format
-* attachment limit
-  * size
-  * number of attachments
-* public encryption key
-
-
-### uiSchema for form presentation
+##### uiSchema for form presentation
 
 In order to present the form to the requester as the agency intends, the agency
 can include a limited version of
