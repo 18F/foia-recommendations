@@ -35,17 +35,18 @@ For these requesters, these concerns are significantly greater than the challeng
 * Lack of trust in redactions. Perception of incomplete disclosure.
 
 ##### Medium
-The submission process is inconsistent between agencies
-the submission mechanism/format varied (email vs web form vs fax vs USPS)
-complicated request requirements above what’s in the statute
-frustration with the amount of information required by many agencies
-significant distrust in reasons for request requirements beyond information required in the statute
-lack of understanding about the regulatory process behind request requirements
-The mechanism/format of request response is frustrating
-Many requesters prefer the highest degree of anonymity possible. Some use tools like MuckRock or hire third parties to file requests on their behalf.
-Lack of trust for reasons behind friction in the process: requesters are dubious about whether differences in submission and response formats and requirements are due to technical limitations or by design.
-Other learnings
-Many requesters expressed a desire to be able to search through more government records, but what is public is often used to hone in searches, not to replace them.
-The requesters we spoke to understand that FOIA offices are under-staffed and/or under-resourced. They often prefer to have a good relationship with FOIA officers as opposed to an antagonistic one. If they have easy access to an attorney, they are inclined to appeal or bring lawsuits when other avenues are exhausted.
-No requesters in the groups we spoke with struggled to discover where to submit requests, but importantly, we have not yet interviewed first-time requesters.
-Requesters often build their own work-around processes like spreadsheets or even apps to track their requests and deadlines so they can follow up with agencies.
+* The submission process is inconsistent between agencies
+ * the submission mechanism/format varied (email vs web form vs fax vs USPS)
+ * complicated request requirements above what’s in the statute
+ * frustration with the amount of information required by many agencies
+ * significant distrust in reasons for request requirements beyond information required in the statute
+ * lack of understanding about the regulatory process behind request requirements
+* The mechanism/format of request response is frustrating
+* Many requesters prefer the highest degree of anonymity possible. Some use tools like MuckRock or hire third parties to file requests on their behalf.
+* Lack of trust for reasons behind friction in the process: requesters are dubious about whether differences in submission and response formats and requirements are due to technical limitations or by design.
+
+##### Other learnings
+* Many requesters expressed a desire to be able to search through more government records, but what is public is often used to hone in searches, not to replace them.
+* The requesters we spoke to understand that FOIA offices are under-staffed and/or under-resourced. They often prefer to have a good relationship with FOIA officers as opposed to an antagonistic one. If they have easy access to an attorney, they are inclined to appeal or bring lawsuits when other avenues are exhausted.
+* No requesters in the groups we spoke with struggled to discover where to submit requests, but importantly, we have not yet interviewed first-time requesters.
+* Requesters often build their own work-around processes like spreadsheets or even apps to track their requests and deadlines so they can follow up with agencies.
