@@ -63,7 +63,7 @@ For these requesters, these concerns are significantly greater than the challeng
 * Many requesters prefer the highest degree of anonymity possible. Some use tools like MuckRock or hire third parties to file requests on their behalf.
 * Lack of trust for reasons behind friction in the process: requesters are dubious about whether differences in submission and response formats and requirements are due to technical limitations or by design.
 
-#### Other learnings
+### Other learnings
 * Many requesters expressed a desire to be able to search through more government records, but what is public is often used to hone in searches, not to replace them.
 * The requesters we spoke to understand that FOIA offices are under-staffed and/or under-resourced. They often prefer to have a good relationship with FOIA officers as opposed to an antagonistic one. If they have easy access to an attorney, they are inclined to appeal or bring lawsuits when other avenues are exhausted.
 * No requesters in the groups we spoke with struggled to discover where to submit requests, but importantly, we have not yet interviewed first-time requesters.
