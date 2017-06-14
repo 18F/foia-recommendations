@@ -3,6 +3,8 @@
 The glossary provides definitions for our team to have a shared language around
 FOIA. This is mostly for use within our team.
 
+See also https://www.foia.gov/glossary.html
+
 
 ##### Chief FOIA Officer
 
