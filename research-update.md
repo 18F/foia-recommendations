@@ -17,7 +17,7 @@ We’re especially interested in understanding how this can be done in a way tha
 ### Interviews
 We started with a first round of interviews with users and stakeholders, including agencies, requesters, requester advocates, and vendors. (A HUGE thank you to everyone who took time to speak with us so far!) To learn more, read [our research plan](https://github.com/18F/foia-recommendations/blob/master/research-plan.md) or [18F’s approach to stakeholder and user interviews](https://methods.18f.gov/discover/stakeholder-and-user-interviews/).
  
-Next, we synthesized our interviews to identify common patterns and pain points, including for requesters(link) and agencies(link). Importantly, these syntheses are early possible findings that we plan to test and research further, not a final report.
+Next, we synthesized our interviews to identify common patterns and pain points, including for [requesters](https://github.com/18F/foia-recommendations/blob/research-synthesis-requesters.md) and [agencies](https://github.com/18F/foia-recommendations/blob/research-synthesis-agencies.md). Importantly, these syntheses are early possible findings that we plan to test and research further, not a final report.
  
 ### Hypotheses and user stories
 Currently, we are brainstorming hypotheses and user stories based on our research so far. Next, we’ll prioritize them based on what we understand the least and would pose the greatest risk to the project if we got them wrong. This is based on [lean methodologies](https://lean-product-design.18f.gov/). 
