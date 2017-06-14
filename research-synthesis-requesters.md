@@ -7,16 +7,16 @@ The goal of our research is to inform hypotheses that address the following:
 * How might agency processes be improved or enhanced by a national FOIA platform?
 
 ### Requesters this document covers
-Academia
-Journalism and advocacy
-Open gov advocacy
-Attorneys (advocates for users who need their records)
-Business
+* Academia
+* Journalism and advocacy
+* Open gov advocacy
+* Attorneys (advocates for users who need their records)
+* Business
 
 ### Requesters this document doesn’t cover
-Agency stakeholders
-Agency developers and IT staff
-First-time requesters
+* Agency stakeholders
+* Agency developers and IT staff
+* First-time requesters
 
 ### What we learned
 
