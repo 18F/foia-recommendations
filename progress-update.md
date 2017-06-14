@@ -15,7 +15,7 @@ We’re especially interested in understanding how this can be done in a way tha
 **We are sharing our initial research because we know it is imperfect and would greatly appreciate your feedback. Please [open an issue](https://github.com/18F/foia-recommendations/issues/new) in GitHub or email us at [National.FOIAPortal@usdoj.gov](mailto:National.FOIAPortal@usdoj.gov), and keep our [contributing policy](https://github.com/18F/foia-recommendations/blob/master/CONTRIBUTING.md) in mind.**
  
 ### Interviews
-We started with a first round of interviews with users and stakeholders, including agencies, requesters, requester advocates, and vendors. (A HUGE thank you to everyone who took time to speak with us so far!) To learn more, read [our research plan](https://github.com/18F/foia-recommendations/blob/master/research-plan.md) or [18F’s approach to stakeholder and [user interviews](https://methods.18f.gov/discover/stakeholder-and-user-interviews/).
+We started with a first round of interviews with users and stakeholders, including agencies, requesters, requester advocates, and vendors. (A HUGE thank you to everyone who took time to speak with us so far!) To learn more, read [our research plan](https://github.com/18F/foia-recommendations/blob/master/research-plan.md) or [18F’s approach to stakeholder and user interviews](https://methods.18f.gov/discover/stakeholder-and-user-interviews/).
  
 Next, we synthesized our interviews to identify common patterns and pain points, including for requesters(link) and agencies(link). Importantly, these syntheses are early possible findings that we plan to test and research further, not a final report.
  
