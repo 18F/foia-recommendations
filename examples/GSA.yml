@@ -2,7 +2,7 @@ abbreviation: GSA
 departments:
 - name: General Services Administration (General)
   submission_methods:
-  - submission_format: usps
+  - submission_format: paper
     name: FOIA Contact
     title: FOIA Requester Service Center (H1C)
     address_lines:
@@ -32,7 +32,7 @@ departments:
       help_text: (i.e. New England Region (1A) - States Served: CT, MA, ME, NH, RI, VT
 - name: Office of Inspector General
   submission_methods:
-    - submission_format: usps
+    - submission_format: paper
       name: OIG Freedom of Information Act Officer
       title: GSA, Office of Inspector General (JC)
       address_lines:

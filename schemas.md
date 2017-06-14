@@ -51,7 +51,7 @@ So, to extend our example from above, with the same caveats about normalization:
 
 ```sql
 CREATE TYPE possible_statuses AS ENUM ('new', 'assigned', 'pending', 'closed');
-CREATE TYPE possible_submission_types AS ENUM ('usps', 'fax', 'email', 'online_form');
+CREATE TYPE possible_submission_types AS ENUM ('paper', 'fax', 'email', 'online_form');
 
  id                     | integer                     | not null -- internal private id
  reference_id           | uuid                        | not null -- public id
@@ -116,7 +116,7 @@ collecting contact information.
 ### Submission methods
 
 A list of methods that the agency supports for receiving a FOIA request. Each
-method represents a different format. Example formats include `usps`, `fax`,
+method represents a different format. Example formats include `paper`, `fax`,
 `email`, `web`, and `platform`.
 
 

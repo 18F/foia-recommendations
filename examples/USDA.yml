@@ -2,7 +2,7 @@ abbreviation: USDA
 departments:
 - name: Agricultural Marketing Service
   submission_methods:
-  - submission_format: usps
+  - submission_format: paper
     name: Gregory Bridges
     title: FOIA Officer
     address_lines:
@@ -16,7 +16,7 @@ departments:
   - submission_format: platform
 - name: Office of Budget & Program Analysis
   submission_methods:
-    - submission_format: usps
+    - submission_format: paper
       name: Julie Hetrick
       title: FOIA/PA Officer
       address_lines:
