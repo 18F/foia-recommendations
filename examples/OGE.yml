@@ -13,4 +13,4 @@ departments:
     fax: +12024829237
   - submission_format: email
     email: usoge@oge.gov
-  - submission_format: platform
+  national_platform: true

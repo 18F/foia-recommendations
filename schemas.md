@@ -117,17 +117,18 @@ collecting contact information.
 
 A list of methods that the agency supports for receiving a FOIA request. Each
 method represents a different format. Example formats include `paper`, `fax`,
-`email`, `web`, and `platform`.
+`email`, `web` and `api`.
 
 
-#### Platform
+#### Receiving requests from a National Platform
 
-If the agency wants to receive requests through the National FOIA Platform, they
-can include a `submission_method` with the `submission_format: platform`.
+If the agency/component wants to receive requests through the National FOIA
+Platform, they can include the field `national_platform: true`.
 
 The agency can specify additional information to be collected by the platform by
 specifying these optional fields.
 
+  * national_platform: true
   * required form fields
     * name
     * label

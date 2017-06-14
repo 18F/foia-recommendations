@@ -13,23 +13,23 @@ departments:
     email: GSA.FOIA@gsa.gov
   - submission_format: web
     url: https://foiaonline.regulations.gov/foia/action/public/home
-  - submission_format: platform
-    required_form_fields:
-    - name: request_origin
-      label: Request Origin
-      regs_url: null
-      help_text: Company
-      enum:
-      - Company
-      - Individual/Self
-      - Organization
-    additional_form_fields:
-    - name: contract_number
-      label: GS- Contract number
-      help_text: If your request relates to a GSA contract, please provide the contract number (which starts with "GS-")
-    - name: region
-      label: GSA Region
-      help_text: (i.e. New England Region (1A) - States Served: CT, MA, ME, NH, RI, VT
+  national_platform: true
+  required_form_fields:
+  - name: request_origin
+    label: Request Origin
+    regs_url: null
+    help_text: Company
+    enum:
+    - Company
+    - Individual/Self
+    - Organization
+  additional_form_fields:
+  - name: contract_number
+    label: GS- Contract number
+    help_text: If your request relates to a GSA contract, please provide the contract number (which starts with "GS-")
+  - name: region
+    label: GSA Region
+    help_text: (i.e. New England Region (1A) - States Served: CT, MA, ME, NH, RI, VT
 - name: Office of Inspector General
   submission_methods:
     - submission_format: paper
@@ -42,20 +42,20 @@ departments:
       fax: +12025010414
     - submission_format: email
       email: OIGFOIA-PrivacyAct@gsaig.gov
-  - submission_format: platform
-    required_form_fields:
-    - name: request_origin
-      label: Request Origin
-      regs_url: null
-      help_text: Company
-      enum:
-      - Company
-      - Individual/Self
-      - Organization
-    additional_form_fields:
-    - name: contract_number
-      label: GS- Contract number
-      help_text: If your request relates to a GSA contract, please provide the contract number (which starts with "GS-")
-    - name: region
-      label: GSA Region
-      help_text: (i.e. New England Region (1A) - States Served: CT, MA, ME, NH, RI, VT
+  national_platform: true
+  required_form_fields:
+  - name: request_origin
+    label: Request Origin
+    regs_url: null
+    help_text: Company
+    enum:
+    - Company
+    - Individual/Self
+    - Organization
+  additional_form_fields:
+  - name: contract_number
+    label: GS- Contract number
+    help_text: If your request relates to a GSA contract, please provide the contract number (which starts with "GS-")
+  - name: region
+    label: GSA Region
+    help_text: (i.e. New England Region (1A) - States Served: CT, MA, ME, NH, RI, VT
