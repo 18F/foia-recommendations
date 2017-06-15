@@ -1,16 +1,16 @@
 We are conducting research to write recommendations for the site referenced in last summer’s [FOIA Improvement Act](https://www.justice.gov/oip/oip-summary-foia-improvement-act-2016) that “allows a member of the public to submit a request for records… to any agency from a single website.” At a minimum, our work requires researching how to send requests to agencies in a way that fits into their existing processes and doesn’t add a delay or otherwise burden the process.
  
 We’re especially interested in understanding how this can be done in a way that improves the system as a whole.
- 
-### This document is NOT:
-* Finished or complete
-* A list of everything we plan to fix or address
-* Quantitative, statistically significant, or generalizable
 
 ### This document IS:
 * Initial research that is broader than what we plan to work on
 * Imperfect and incomplete: please let us know what we’re missing!
 * Qualitative: this research is used to find patterns to further examine and test
+ 
+### This document is NOT:
+* Finished or complete
+* A list of everything we plan to fix or address
+* Quantitative, statistically significant, or generalizable
  
 **We are sharing our initial research because we know it is imperfect and would greatly appreciate your feedback. Please [open an issue](https://github.com/18F/foia-recommendations/issues/new) in GitHub or email us at [National.FOIAPortal@usdoj.gov](mailto:National.FOIAPortal@usdoj.gov), and keep our [contributing policy](https://github.com/18F/foia-recommendations/blob/master/CONTRIBUTING.md) in mind.**
  
