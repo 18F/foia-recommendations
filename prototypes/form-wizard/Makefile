@@ -1,3 +1,6 @@
+agencies:
+	bundle exec ruby bin/build-agencies-js.rb
+
 build:
 	npm run build
 
