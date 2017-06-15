@@ -62,7 +62,7 @@ requesters are rare, but often account for a majority of time and resources.
 - Some agencies have frequent requesters who account for a significant proportion of
 their time and resources.
 - Privacy is a concern for moving to a fully electronic submission-based system for
-identification verification (currently done with signature) and document encryption
+identification verification (currently done with "wet signature," i.e. pen and paper) and document encryption
 (often done with encrypted files on CDs).
 - Of the agencies we spoke with, usually less than 5% of requests were for information that was already publicly available.
 - Some agencies primarily receive requests almost exclusively for personal files.
