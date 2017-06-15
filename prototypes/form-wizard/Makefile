@@ -6,7 +6,7 @@ setup:
 	npm install
 
 run:
-	npm run serve
+	npm run serve --watch
 
 test:
 	stat _site/assets/js/agencies.js > /dev/null
