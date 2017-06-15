@@ -97,6 +97,11 @@ submission confusing and burdensome. We hope that by having agencies include
 supplemental information about the requirements, it will help inform requesters
 and allay any concerns._
 
+This flow diagram illustrates how the metadata file is used for submission:
+
+![Platform reads an agency metadata file to determine how to submit a FOIA
+request to the agency](img/request-submission-platform.png)
+
 The metadata file should include the following fields:
 
 * agency abbreviation
