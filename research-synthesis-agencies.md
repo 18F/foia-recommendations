@@ -65,4 +65,4 @@ their time and resources.
 identification verification (currently done with "wet signature," i.e. pen and paper) and document encryption
 (often done with encrypted files on CDs).
 - Of the agencies we spoke with, usually less than 5% of requests were for information that was already publicly available.
-- Some agencies primarily receive requests almost exclusively for personal files.
+- The type, volume, and complexity of requests that each agency tends to receive are often as variable as agency missions. In addition, some agencies primarily receive requests almost exclusively for personal files.
