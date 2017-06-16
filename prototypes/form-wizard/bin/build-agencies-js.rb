@@ -26,6 +26,7 @@ class JsBuilder
 
   def load_agency(agencies, agency)
     departments = agency['departments']
+    summary = agency_summary(agency)
     if departments.count == 1
       if agency['abbreviation']
         name = sprintf("%s ( %s )", agency['name'], agency['abbreviation'])
@@ -33,6 +34,7 @@ class JsBuilder
         name = agency['name']
       end
       agencies[name] = departments[0]
+      agencies[name]['summary'] = summary
     else
       departments.each do |dept|
         if dept['top_level'] == true
@@ -46,9 +48,15 @@ class JsBuilder
           name = sprintf("%s, %s", dept['name'], agency['name'])
         end 
         agencies[name] = dept
+        agencies[name]['summary'] = summary
       end 
     end 
-  end 
+  end
+
+  def agency_summary(agency)
+    skip_keys = ['departments', 'keywords', 'request_time_stats']
+    agency.reject { |k, v| skip_keys.include?(k) }
+  end
 
   def write_page(agencies)
     FileUtils.mkdir_p(File.dirname(OUTPUT_FILE))

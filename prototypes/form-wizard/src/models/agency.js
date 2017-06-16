@@ -5,7 +5,7 @@ module.exports = Agency;
 function Agency(attributes) { Object.assign(this, attributes); }
 
 Agency.prototype.hasRequestForm = function () {
-  if (this.request_form) {
+  if (this.request_form && this.request_form.match(/^http/)) {
     return true;
   }
   return false;
