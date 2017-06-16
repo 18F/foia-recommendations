@@ -77,3 +77,26 @@ Note: Avoid detailing project scope until after the interview is complete.
 - How do you determine what documents will be published to a public reading room?
   - Are there any technical barriers to posting more documents online?
 - If you could wave a magic wand to address one issue in the FOIA space, what would that issue be?
+
+## MVP test for status
+
+Two possible tests listed. I'm not entirely sure that we'd need to run through both.
+
+### Brief
+
+- Brief user on scenario in which they will file a (complex) request with the Department of State. The median response time for a complex request to State is 333 days.
+- In scenario, user has just submitted a request online. They received an email after submitting.
+- Show user mock-up of email with link to tracking site.
+
+### Limited status
+
+- Walk user through multiple points in request experience. Each one begins with an email at a point in the process indicating a change in status: new (immediate), assigned (1 week), pending (8 days-832 days), closed (333 days).
+- Show user status page ("After clicking the link in the email you go here./After 4 months, you check the link and see this "pending" page)
+- Ask user about what they see on the page, and how the information makes them feel. Ask if they would take any other actions at any point.
+
+### Detailed status
+
+- Walk user through multiple points in request experience. Each one begins with an email at a point in the process indicating a change in status: new (immediate), assigned (1 week), record collection (month 1-7), referral (month 8-10), closed (11 months).
+- Show user status page ("After clicking the link in the email you go here./After 4 months, you check the link and see this "pending" page)
+- Ask user about what they see on the page, and how the information makes them feel. Ask if they would take any other actions at any point.
+- (Attempt to identify differences between two tests if any)
