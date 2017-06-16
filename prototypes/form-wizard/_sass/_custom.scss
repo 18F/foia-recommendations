@@ -5,9 +5,12 @@
  **/
 
 span.twitter-typeahead {
+  display: block !important;
+  width: 100%;
+
   .tt-menu {
-    width: 30rem;
-    margin-top: 1rem;
+    width: 100%;
+    margin-top: 0;
     padding: 1rem 0;
     background-color: #fff;
     border: 0.0625rem solid #ccc;
@@ -40,10 +43,27 @@ span.twitter-typeahead {
 
 .external-link {
   display: none;
+  font-weight: bold;
+  border: 0.0625rem solid #ccc;
+  padding: 1rem;
+}
+
+.agency-details {
+  display: none;
+}
+
+#confirmation {
+  display: none;
+  border: 0.0625rem solid #ccc;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 .agency-picker {
   label {
     margin-top: 0;
+  }
+  #agency {
+    max-width: 100%;
   }
 }
