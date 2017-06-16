@@ -67,4 +67,4 @@ identification verification (currently done with "wet signature," i.e. pen and p
 - Of the agencies we spoke with, usually less than 5% of requests were for information that was already publicly available.
 - The type, volume, and complexity of requests that each agency tends to receive are often as variable as agency missions. In addition, some agencies primarily receive requests almost exclusively for personal files.
 
-Return to the [research summary update](https://github.com/18F/foia-recommendations/blob/research-links/research-update.md)
+Return to the [research summary update](https://github.com/18F/foia-recommendations/blob/master/research-update.md)
