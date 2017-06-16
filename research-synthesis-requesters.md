@@ -67,4 +67,4 @@ For these requesters, these concerns are significantly greater than the challeng
 * No requesters in the groups we spoke with struggled to discover where to submit requests, but importantly, we have not yet interviewed first-time requesters.
 * Requesters often build their own work-around processes like spreadsheets or even apps to track their requests and deadlines so they can follow up with agencies.
 
-Return to the [research summary update](https://github.com/18F/foia-recommendations/blob/research-links/research-update.md).
+Return to the [research summary update](https://github.com/18F/foia-recommendations/blob/master/research-update.md).
