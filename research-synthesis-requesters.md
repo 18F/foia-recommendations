@@ -66,3 +66,5 @@ For these requesters, these concerns are significantly greater than the challeng
 * The requesters we spoke to understand that FOIA offices are under-staffed and/or under-resourced. They often prefer to have a good relationship with FOIA officers as opposed to an antagonistic one. If they have easy access to an attorney, they are inclined to appeal or bring lawsuits when other avenues are exhausted.
 * No requesters in the groups we spoke with struggled to discover where to submit requests, but importantly, we have not yet interviewed first-time requesters.
 * Requesters often build their own work-around processes like spreadsheets or even apps to track their requests and deadlines so they can follow up with agencies.
+
+Return to the [research summary update](https://github.com/18F/foia-recommendations/blob/master/research-update.md).
