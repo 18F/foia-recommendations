@@ -54,8 +54,8 @@ For these requesters, these concerns are significantly greater than the challeng
 
 ##### Medium
 * Inconsistencies in the submission process between agencies creates distrust. For example:
- * different submission mechanism/format requirements (email vs web form vs fax vs USPS)
- * complicated request requirements above what’s in the statute
+  * different submission mechanism/format requirements (email vs web form vs fax vs USPS)
+  * complicated request requirements above what’s in the statute
 * Requesters are rarely familiar with the regulatory process for creating agency request requirements.
 * The mechanism/format of request response can be frustrating.
 * Many requesters prefer the highest degree of anonymity possible. Some use tools like MuckRock or hire third parties to file requests on their behalf.
