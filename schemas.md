@@ -1,9 +1,15 @@
 # FOIA Schemas
 
-These are works-in-process as we evaluate opportunities for interoperability amongst the various
-existing applications in the FOIA ecosystem.
+These are works-in-process as we evaluate opportunities for interoperability
+amongst the various existing applications and processes in the FOIA ecosystem.
 
-We delineate two request schemas because there are two distinct perspectives on the data: one for creating a request, and another for tracking a request. The first is a subset of the second.
+The first schema describes a means for agencies to describe their existing FOIA
+processes and systems.
+
+The second two schemas describe a single request at different points in time. We
+delineate two request schemas because there are two distinct perspectives on the
+data: one for creating a request, and another for tracking a request. The first
+is a subset of the second.
 
 
 ## FOIA metadata JSON file
