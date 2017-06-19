@@ -13,7 +13,7 @@ title: FOIA request prototype
 description: > # this means to ignore newlines until "baseurl:"
   A prototype exploring how the public might submit a FOIA request through
   a single national portal.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://foia-form-wizard.app.cloud.gov" # the subpath of your site, e.g. /blog
 agency:
   name: Office of Information Policy
   email: info@agency.gov
