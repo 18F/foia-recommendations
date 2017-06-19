@@ -18,6 +18,12 @@ span.twitter-typeahead {
     border-radius: 0.5rem;
     box-shadow: 0 0.3rem 0.625rem rgba(0,0,0,.2);
     cursor: pointer;
+    overflow-y: auto;
+    max-height: 150px;
+  }
+
+  .tt-hint {
+    margin: 0;
   }
 
   .tt-suggestion {
