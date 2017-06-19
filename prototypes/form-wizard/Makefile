@@ -3,6 +3,11 @@ agencies:
 
 build:
 	npm run build
+	bundle exec jekyll build
+
+dist:
+	npm run build
+	bundle exec jekyll build --baseurl "https://foia-form-wizard.app.cloud.gov"
 
 setup:
 	bundle install
