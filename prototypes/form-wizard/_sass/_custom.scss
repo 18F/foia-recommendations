@@ -20,6 +20,10 @@ span.twitter-typeahead {
     cursor: pointer;
   }
 
+  .tt-hint {
+    margin: 0;
+  }
+
   .tt-suggestion {
     padding: 0.5rem 1.2rem;
     font-size: 1.7rem;
