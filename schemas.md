@@ -88,6 +88,7 @@ that can be used to describe how the additional fields should be rendered.
   * ui:widget
   * ui:placeholder
 
+
 ## Creating a request
 
 Based on the form at
@@ -159,3 +160,6 @@ CREATE TYPE possible_submission_types AS ENUM ('paper', 'fax', 'email', 'online_
  created_at             | timestamp without time zone | not null -- about the record, not the request
  updated_at             | timestamp without time zone | not null -- about the record, not the request
 ```
+
+The tracking schema is a superset of the previous one. It contains all the
+fields from [creating a request](#creating-a-request) example.
