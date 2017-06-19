@@ -102,7 +102,7 @@ jQuery(document).ready(function () {
     minLength: 2,
     highlight: true
   }, {
-    limit: 10,
+    limit: 100,
     source: new Bloodhound({
       local: FOIA.agencyNames(),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
