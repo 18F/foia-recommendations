@@ -17,10 +17,8 @@ FOIA = {
     $('.agency-details').hide();
   },
   showRequestFormLink: function (agency) {
-    var $link = $('<a class="foia-link"></a>');
+    var $link = $('a.foia-link');
     $link.attr('href', agency.request_form);
-    $link.text(agency.request_form);
-    $('p.foia-link').html($link);
     $('.external-link').show();
   },
   showForm: function () { // TODO agency is passed but not used
