@@ -90,7 +90,7 @@ FOIA = {
     ev.preventDefault();
     $('.unified-form').find(':input').prop('disabled', true);
     $('#submit').disabled = true;
-    window.location = '/confirmation?agency=' + encodeURIComponent(FOIA.agencyName);
+    window.location = '/confirmation.html?agency=' + encodeURIComponent(FOIA.agencyName);
   },
   toggleHelp: function (ev) {
     var $help = $(ev.currentTarget).find('.tooltiptext');
