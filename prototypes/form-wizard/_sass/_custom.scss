@@ -73,3 +73,18 @@ span.twitter-typeahead {
     max-width: 100%;
   }
 }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  display: none;
+  border: 0.0625rem solid #ddd;
+  padding: 1rem;
+}

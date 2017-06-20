@@ -93,6 +93,10 @@ FOIA = {
     $('.unified-form').find(':input').prop('disabled', true);
     $('#submit').disabled = true;
     $('#confirmation').show();
+  },
+  toggleHelp: function (ev) {
+    var $help = $(ev.currentTarget).find('.tooltiptext');
+    $help.slideToggle();
   }
 };
 
@@ -124,5 +128,10 @@ jQuery(document).ready(function () {
   // submission always works
   $('#submit').on('click', function (ev) {
     FOIA.showConfirmation(ev);
+  });
+
+  // help text
+  $('.tooltip').on('click', function (ev) {
+    FOIA.toggleHelp(ev);
   });
 });
