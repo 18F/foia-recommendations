@@ -92,16 +92,41 @@ FOIA = {
     ev.preventDefault();
     $('.unified-form').find(':input').prop('disabled', true);
     $('#submit').disabled = true;
-    $('#confirmation').show();
+    window.location = '/confirmation?agency=' + encodeURIComponent(FOIA.agencyName);
   },
   toggleHelp: function (ev) {
     var $help = $(ev.currentTarget).find('.tooltiptext');
     $help.slideToggle();
+  },
+  getUrlParameter: function (sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1));
+    var sURLVariables = sPageURL.split('&');
+    var sParameterName;
+    var i;
+
+    for (i = 0; i < sURLVariables.length; i += 1) {
+      sParameterName = sURLVariables[i].split('=');
+
+      // `?enable_var` should be parsed as true.
+      if (sParameterName[0] === sParam) {
+        return sParameterName[1] === undefined ? true : sParameterName[1];
+      }
+    }
+
+    return null;
+  },
+  buildConfirmation: function ($el) {
+    var agencyName = FOIA.getUrlParameter('agency');
+    var $agency = FOIA.agency(agencyName);
+    FOIA.addAgencyDetails($agency);
+    $el.show();
   }
 };
 
 jQuery(document).ready(function () {
   var $agency = jQuery('#agency');
+  var $confirmation = jQuery('#confirmation');
+
   $agency.typeahead({
     minLength: 2,
     highlight: true
@@ -115,6 +140,7 @@ jQuery(document).ready(function () {
   });
   $agency.on('typeahead:select', function (ev, suggestion) {
     var agency = FOIA.agency(suggestion);
+    FOIA.agencyName = suggestion;
     FOIA.hideAgencyDetails();
     // console.log(agency);
     if (agency.hasRequestForm()) {
@@ -134,4 +160,7 @@ jQuery(document).ready(function () {
   $('.tooltip').on('click', function (ev) {
     FOIA.toggleHelp(ev);
   });
+  if ($confirmation && $confirmation[0]) {
+    FOIA.buildConfirmation($confirmation);
+  }
 });
