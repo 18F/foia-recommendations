@@ -5,6 +5,7 @@ var FOIA = {};
 var Agency = require('./models/agency');
 
 FOIA = {
+  FOIAonlineForm: 'https://foiaonline.regulations.gov/foia/action/public/request/createRequest',
   agencyNames: function () {
     return jQuery.map(AGENCIES, function (el, idx) { return idx; }).sort();
   },
@@ -18,7 +19,11 @@ FOIA = {
   },
   showRequestFormLink: function (agency) {
     var $link = $('a.foia-link');
-    $link.attr('href', agency.request_form);
+    var href = agency.request_form;
+    if (agency.isFOIAonline()) {
+      href = FOIA.FOIAonlineForm;
+    }
+    $link.attr('href', href);
     $('.external-link').show();
   },
   showForm: function () { // TODO agency is passed but not used
