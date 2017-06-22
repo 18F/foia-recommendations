@@ -10,3 +10,7 @@ Agency.prototype.hasRequestForm = function () {
   }
   return false;
 };
+
+Agency.prototype.isFOIAonline = function () {
+  return this.request_form.match(/foiaonline/);
+};
