@@ -124,17 +124,24 @@ FOIA = {
 jQuery(document).ready(function () {
   var $agency = jQuery('#agency');
   var $confirmation = jQuery('#confirmation');
+  var bloodhound = new Bloodhound({
+    local: FOIA.agencyNames(),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    datumTokenizer: Bloodhound.tokenizers.whitespace
+  });
 
   $agency.typeahead({
-    minLength: 2,
+    minLength: 0,
     highlight: true
   }, {
-    limit: 100,
-    source: new Bloodhound({
-      local: FOIA.agencyNames(),
-      queryTokenizer: Bloodhound.tokenizers.whitespace,
-      datumTokenizer: Bloodhound.tokenizers.whitespace
-    })
+    limit: 1000,
+    source: function (q, sync) {
+      if (q === '') {
+        sync(FOIA.agencyNames());
+      } else {
+        bloodhound.search(q, sync);
+      }
+    }
   });
   $agency.on('typeahead:select', function (ev, suggestion) {
     var agency = FOIA.agency(suggestion);
