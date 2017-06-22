@@ -4,17 +4,6 @@
     </div>
     <div class="usa-footer-primary-section">
       <div class="usa-grid-full">
-        <nav class="usa-footer-nav usa-width-two-thirds">
-          <ul class="usa-unstyled-list">
-            {% for nav_page in site.pages %}
-              {% if nav_page.title %}
-              <li class="usa-width-one-fourth usa-footer-primary-content">
-                <a class="usa-footer-primary-link" href="{{ nav_page.url | prepend:site.baseurl }}">{{ nav_page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </nav>
         <div class="usa-width-one-sixth usa-footer-primary-content">
           <p>(800) CALL-GOVT</p>
         </div>
