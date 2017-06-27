@@ -6,7 +6,7 @@
 
 We are conducting research and prototyping in order to write recommendations about how to build the "consolidated online request portal” mandated in an amendment to the FOIA, the FOIA Improvement Act of 2016. At a minimum, our work requires learning how to let a user submit a FOIA request in one place to any and all parts of the federal government covered by the FOIA. We’re striving to understand how this can be done in a way that improves the system as a whole. _We prefer the terms "site" or "platform" instead of "portal;" however, because "portal" is a relatively antiquated term that can be confusing and mean something different to everyone._
 
-If you would like to learn more about the project or provide feedback, sign up by emailing the Department of Justice's Office of Information Policy (DOJ OIP) at [National.FOIAPortal@usdoj.gov](mailto:National.FOIAPortal@usdoj.gov). They have also posted a [blog post about this project](https://www.justice.gov/oip/blog/oip-seeks-your-participation-development-national-foia-portal). You can also read our [interagency agreement](https://github.com/18f/foia-recommendations/interagency-agreement.md) for this project.
+If you would like to learn more about the project or provide feedback, sign up by emailing the Department of Justice's Office of Information Policy (DOJ OIP) at [National.FOIAPortal@usdoj.gov](mailto:National.FOIAPortal@usdoj.gov). They have also posted a [blog post about this project](https://www.justice.gov/oip/blog/oip-seeks-your-participation-development-national-foia-portal). You can also read our [interagency agreement](./interagency-agreement.md) for this project.
 
 ## The FOIA Improvement Act of 2016
 

@@ -5,9 +5,12 @@
  **/
 
 span.twitter-typeahead {
+  display: block !important;
+  width: 100%;
+
   .tt-menu {
-    width: 30rem;
-    margin-top: 1rem;
+    width: 100%;
+    margin-top: 0;
     padding: 1rem 0;
     background-color: #fff;
     border: 0.0625rem solid #ccc;
@@ -15,6 +18,12 @@ span.twitter-typeahead {
     border-radius: 0.5rem;
     box-shadow: 0 0.3rem 0.625rem rgba(0,0,0,.2);
     cursor: pointer;
+    overflow-y: auto;
+    max-height: 150px;
+  }
+
+  .tt-hint {
+    margin: 0;
   }
 
   .tt-suggestion {
@@ -32,4 +41,50 @@ span.twitter-typeahead {
     color: #fff;
     background-color: #0071bc;
   }
+}
+
+.unified-form {
+  display: none;
+}
+
+.external-link {
+  display: none;
+  font-weight: bold;
+  border: 0.0625rem solid #ccc;
+  padding: 1rem;
+}
+
+.agency-details {
+  display: none;
+}
+
+#confirmation {
+  display: none;
+  border: 0.0625rem solid #ccc;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.agency-picker {
+  label {
+    margin-top: 0;
+  }
+  #agency {
+    max-width: 100%;
+  }
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  display: none;
+  border: 0.0625rem solid #ddd;
+  padding: 1rem;
 }

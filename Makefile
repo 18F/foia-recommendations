@@ -1,4 +1,4 @@
-build setup run test:
+build dist run setup test:
 	$(MAKE) -C prototypes/form-wizard $@
 
-.PHONY: build setup run test
+.PHONY: build dist run setup test

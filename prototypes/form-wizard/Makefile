@@ -1,5 +1,15 @@
+BASEURL ?= "https://foia-form-wizard.app.cloud.gov"
+
+agencies:
+	bundle exec ruby bin/build-agencies-js.rb
+
 build:
 	npm run build
+	bundle exec jekyll build
+
+dist:
+	npm run build
+	bundle exec jekyll build --baseurl $(BASEURL)
 
 setup:
 	bundle install

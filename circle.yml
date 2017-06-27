@@ -17,6 +17,7 @@ deployment:
   prototype:
     branch: master
     commands:
+      - make dist
       - export PATH=$HOME/bin:$PATH
       - curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.23.0" | tar xzv -C $HOME/bin
       - cf install-plugin autopilot -f -r CF-Community

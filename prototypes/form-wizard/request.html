@@ -4,12 +4,44 @@ title: Create a FOIA request
 permalink: /request/
 ---
 
-<p>Here’s where you can create a FOIA request in three steps.</p>
+<div class="usa-alert usa-alert-warning">
+  <div class="usa-alert-body">
+    <h3 class="usa-alert-heading">Alert</h3>
+    <p class="usa-alert-text">
+     No personal information is retained on this site.
+     For demonstration purposes only.
+    </p>
+  </div>
+</div>
+
+<div class="foia-steps">
+<h3>There are three steps to create a federal FOIA request.</h3>
 <ol>
-  <li>Enter your contact information.</li>
-  <li>Describe your request.</li>
-  <li>Identify any details about how the request should be processed.</li>
+ <li>Identify the federal agency that has the records you want.</li>
+ <li>Describe the records you want, and how the agency can contact you.</li>
+ <li>Submit your request.</li>
 </ol>
+</div>
+
+<div class="agency-picker">
+<h4>1. Identify the federal agency that has the records you want.</h4>
+<form action="#">
+  <fieldset>
+    <label for="agency" class="usa-input-required">Agency name</label>
+    <input id="agency" type="text" placeholder="Type agency name here">
+  </fieldset>
+</form>
+
+</div>
+
+<div class="external-link">
+<p>
+This agency does not currently support the national FOIA site. Please make a request using their <a class="foia-link usa-external_link" href="">online form</a>.
+</p>
+</div>
+
+<div class="unified-form">
+ <h4>2. Describe your request, and how the agency can contact you.</h4>
 
 <form action="" method="get" class="usa-form">
   <fieldset>
@@ -44,12 +76,22 @@ permalink: /request/
   <fieldset>
     <legend>Processing details</legend>
 
-    <label for="agency" class="usa-input-required">Agency name</label>
-    <input id="agency" type="text" size="100">
-
     <label for="fees">I’m willing to pay fees up to this amount</label>
     <input id="fees" type="text">
 
+    <div class='tooltip'>
+      Why are fees required?
+      <div class='tooltiptext'>
+      There is no fee to file a FOIA request. FOIA established three fee categories that agencies use
+      to determine if fees will be charged:
+      <ol>
+       <li>commercial requesters may be charged fees for searching for records, reviewing the records, and photocopying them;</li>
+       <li>news media, educational or noncommercial scientific institutions are charged for photocopying, after the first 100 pages;</li>
+       <li>all other requesters (requesters who do not fall into any of the other three categories) are charged for photocopying after 100 pages and for time spent searching for records in excess of two hours.</li>
+      </ol>
+      In the event that fees are incurred beyond what you are entitled to for free, please indicate a specific amount that you are willing to pay. If you do not indicate another amount, please be advised that some agency regulations provide that making a FOIA request represents an agreement to pay fees up to $25.
+      </div>
+    </div>
 
     <input id="fee-waiver" type="checkbox">
     <label for="fee-waiver">I’d like to request a fee waiver</label>
@@ -59,7 +101,22 @@ permalink: /request/
   </fieldset>
 
   <div class="form-controls-inline">
+   <h4>3. Submit your request</h4>
     <button id="submit" class="usa-button" type="submit">Submit</button>
     <button id="reset" class="usa-button usa-button-secondary" type="reset">Reset</button>
   </div>
 </form>
+</div>
+
+<div class="agency-details">
+ <h3>Agency Details</h3>
+ <table class="usa-table-borderless">
+  <tr><th>Agency</th><td class="agency"></td></tr>
+  <tr><th>Name</th><td class="name"></td></tr>
+  <tr><th>Abbreviation</th><td class="abbr"></td></tr>
+  <tr><th>Description</th><td class="desc"></td></tr>
+  <tr><th>Website</th><td class="website"></td></tr>
+  <tr><th>Contact</th><td class="contact"></td></tr>
+  <tr><th>Median processing time</th><td class="median-time"></td></tr>
+ </table>
+</div>
