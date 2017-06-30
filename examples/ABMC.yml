@@ -1,6 +1,8 @@
 abbreviation: ABMC
 departments:
 - name: American Battle Monuments Commission
+  reading_rooms:
+  - https://www.abmc.gov/node/1005/foia-reading-room
   submission_methods:
   - submission_format: paper
     name: Beatriz Collazo

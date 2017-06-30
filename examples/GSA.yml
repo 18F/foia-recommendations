@@ -1,6 +1,8 @@
 abbreviation: GSA
 departments:
 - name: General Services Administration (General)
+  reading_rooms:
+  - https://www.gsa.gov/portal/content/305477
   submission_methods:
   - submission_format: paper
     name: FOIA Contact
@@ -30,6 +32,8 @@ departments:
     label: GSA Region
     help_text: (i.e. New England Region (1A) - States Served: CT, MA, ME, NH, RI, VT
 - name: Office of Inspector General
+  reading_rooms:
+  - https://www.gsa.gov/portal/content/305477
   submission_methods:
     - submission_format: paper
       name: OIG Freedom of Information Act Officer
