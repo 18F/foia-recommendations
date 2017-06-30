@@ -41,6 +41,7 @@ The metadata file should include the following fields:
 * agency abbreviation
 * list of departments
   * name
+  * URL to FOIA reading room
   * list of submission methods
     * submission format
 
