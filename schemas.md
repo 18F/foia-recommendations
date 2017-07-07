@@ -70,7 +70,7 @@ requesters and allay any concerns.
 
 This flow diagram illustrates how the metadata file is used for submission:
 
-<img width="800"
+<img width="600"
      alt="Portal reads an agency metadata file to determine how to submit a FOIA request to the agency"
      src="img/request-submission-platform.png">
 
