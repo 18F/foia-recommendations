@@ -103,29 +103,6 @@ metadata file. FOIA offices don’t need to be an expert in web publishing or JS
 to update their agency’s information.
 
 
-### Moving towards true interoperability
-
-Many agencies have a custom or manual FOIA process where electronic submission
-means receiving a FOIA request by email and manually entering the request data
-into the agency’s case management system. For these agencies, we hope that the
-Portal will help requesters make better requests but the real benefit eventually
-would be to submit these requests directly into the agency’s case management
-system without the need for manual data entry.
-
-Even agencies that have a web form for submitting FOIA requests don’t provide an
-API for a national Portal to submit requests directly to their case management
-system. We’ve defined a draft request schema for what a submission API might
-accept but agencies would have to build it. As an intermediate step, we’ve come
-up with several options for providing a tiered approach for agencies to accept
-richer submissions. We will be collecting feedback from agencies on these
-options.
-
-- Plain-text email containing request data
-- Email with request data as an attachment in machine readable format e.g. csv, json, xml
-- Email with request data in email headers
-- HTTPS RESTful API
-
-
 ### Schema
 
 The metadata file should include the following fields:
@@ -218,6 +195,30 @@ Written as an example SQL schema, this might look like (ignoring any normalizati
  fax                    | character varying(255)      |
  attachments            | text                        |
 ```
+
+
+### Moving towards true interoperability
+
+Many agencies have a custom or manual FOIA process where electronic submission
+means receiving a FOIA request by email and manually entering the request data
+into the agency’s case management system. For these agencies, we hope that the
+Portal will help requesters make better requests but the real benefit eventually
+would be to submit these requests directly into the agency’s case management
+system without the need for manual data entry.
+
+Even agencies that have a web form for submitting FOIA requests don’t provide an
+API for a national Portal to submit requests directly to their case management
+system. We’ve defined a draft request schema for what a submission API might
+accept but agencies would have to build it. As an intermediate step, we’ve come
+up with several options for providing a tiered approach for agencies to accept
+richer submissions. We will be collecting feedback from agencies on these
+options.
+
+- Plain-text email containing request data
+- Email with request data as an attachment in machine readable format e.g. csv, json, xml
+- Email with request data in email headers
+- HTTPS RESTful API
+
 
 ## Tracking a request
 
