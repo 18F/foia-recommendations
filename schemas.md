@@ -15,7 +15,7 @@ is a subset of the second.
 <a name="foia-metadata-json-file"></a>
 ## Agency metadata file
 
-In order for a national Platform to submit requests to an agency, the
+In order for a national Portal to submit requests to an agency, the
 agency must publish an agency metadata file. [Project Open
 Data](https://project-open-data.cio.gov/v1.1/schema/) is an example of
 a metadata file schema that allows for open government datasets to be
@@ -71,7 +71,7 @@ and allay any concerns.
 This flow diagram illustrates how the metadata file is used for submission:
 
 <img width="800"
-     alt="Platform reads an agency metadata file to determine how to submit a FOIA request to the agency"
+     alt="Portal reads an agency metadata file to determine how to submit a FOIA request to the agency"
      src="img/request-submission-platform.png">
 
 
@@ -151,9 +151,9 @@ method represents a different format. Example formats include `paper`, `fax`,
 `email`, `web` and `api`.
 
 
-#### Receiving requests from a National Platform
+#### Receiving requests from a National Portal
 
-The agency can specify additional information to be collected by the platform by
+The agency can specify additional information to be collected by the Portal by
 specifying these optional fields.
 
   * required form fields
