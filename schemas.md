@@ -63,10 +63,10 @@ Even though this information might already be available, it is only useful to
 the Portal if it is machine-readable. Having it in a single, standard file makes
 it easier to collect this information across agencies and components.
 
-Our research has shown that users often find additional requirements for FOIA
-submission confusing and burdensome. We hope that by having agencies include
-supplemental information about the requirements, it will help inform requesters
-and allay any concerns.
+Our research has shown that requesters often find additional requirements for
+FOIA submission confusing and burdensome. We hope that by having agencies
+include supplemental information about the requirements, it will help inform
+requesters and allay any concerns.
 
 This flow diagram illustrates how the metadata file is used for submission:
 
