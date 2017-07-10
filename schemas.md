@@ -54,8 +54,8 @@ through OIP.
 - Describe to a requester other FOIA resources like agency reading rooms
 - Give some expectation to how long a request might take based on historical data
 - Collect information from the requester that is required for a perfected request
-- Negotiate with the requester any additional information while not required,
-  may help to narrow or expedite the request
+- Provide context for additional, optional form questions that may help to
+  narrow the scope and/or expedite the request.
 - Submit electronic requests directly into the agency’s case management system (if applicable)
 - Or if direct electronic submission is not possible, to email the agency with a perfected request
 
@@ -78,10 +78,10 @@ This flow diagram illustrates how the metadata file is used for submission:
 ### Empower agencies to keep this information up to date
 
 Having agencies responsible for maintaining this metadata file means agencies
-are empowered to change it at will, as often as their organization changes, and
-immediately when their organization changes. Agencies do not need to coordinate
-with an external entity like OIP to get this information published. We believe
-this will lead to more accurate information for requesters.
+are empowered to change it whenever their organization changes. Agencies do not
+need to coordinate with an external entity like OIP to get this information
+published. We believe this will lead to more accurate information for
+requesters.
 
 In agency interviews, we offered a few options for maintaining an agency metadata file.
 
@@ -108,7 +108,7 @@ to update their agency’s information.
 The metadata file should include the following fields:
 
 * agency abbreviation
-* list of departments/components
+* list of FOIA offices/components
   * name
   * URL to FOIA reading room
   * list of submission methods
@@ -218,6 +218,8 @@ options.
 - Plain-text email containing request data
 - Email with request data as an attachment in machine readable format e.g. csv, json, xml
 - Email with request data in email headers
+- Complete the existing agency web form on behalf of the requester using data
+  collected initially by the Portal
 - HTTPS RESTful API
 
 
