@@ -34,7 +34,7 @@ opt-in to richer submission methods, like through an HTTPS API.
 ### What information is in the metadata file?
 
 - Agency FOIA contact info
-- FOIA resources like reading rooms
+- FOIA resources like reading rooms, or status tracking tools
 - Annually reported statistics for request processing time
 - Additional component-specific information to be collected from a requester
 - Information that would help a requester make a perfected request
@@ -52,10 +52,12 @@ through OIP.
 
 - Describe to a requester how to contact the agency
 - Describe to a requester other FOIA resources like agency reading rooms
+- Direct users to any online tools where they can track the status of their
+  request
 - Give some expectation to how long a request might take based on historical data
 - Collect information from the requester that is required for a perfected request
 - Provide context for additional, optional form questions that may help to
-  narrow the scope and/or expedite the request.
+  narrow the scope and/or expedite the request
 - Submit electronic requests directly into the agency’s case management system (if applicable)
 - Or if direct electronic submission is not possible, to email the agency with a perfected request
 
@@ -111,6 +113,7 @@ The metadata file should include the following fields:
 * list of FOIA offices/components
   * name
   * URL to FOIA reading room
+  * URL to request status tracker
   * list of submission methods
     * submission format
 
