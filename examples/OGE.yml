@@ -1,6 +1,8 @@
 abbreviation: OGE
 departments:
 - name: Office of Government Ethics
+  reading_rooms:
+  - https://www.oge.gov/Web/OGE.nsf/Resources/Electronic+Reading+Room
   submission_methods:
   - submission_format: paper
     name: Rachel K. Dowell

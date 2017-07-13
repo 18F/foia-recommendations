@@ -1,6 +1,8 @@
 abbreviation: USDA
 departments:
 - name: Agricultural Marketing Service
+  reading_rooms:
+  - https://www.ams.usda.gov/about-ams/foia/reading-room
   submission_methods:
   - submission_format: paper
     name: Gregory Bridges
@@ -14,6 +16,8 @@ departments:
   - submission_format: email
     email: AMS.FOIA@USDA.gov
 - name: Office of Budget & Program Analysis
+  reading_rooms:
+  - https://efoia-pal.usda.gov/App/ReadingRoom.aspx
   submission_methods:
     - submission_format: paper
       name: Julie Hetrick
