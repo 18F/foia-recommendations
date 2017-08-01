@@ -35,7 +35,7 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-import": "^2.7.0",
     "npm-run-all": "^4.0.2",
     "watch": "^1.0.2"
   }
