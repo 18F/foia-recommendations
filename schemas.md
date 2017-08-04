@@ -35,7 +35,6 @@ opt-in to richer submission methods, like through an HTTPS API.
 
 - Agency FOIA contact info
 - FOIA resources like reading rooms, or status tracking tools
-- Annually reported statistics for request processing time
 - Additional component-specific information to be collected from a requester
 - Information that would help a requester make a perfected request
 - Request submission methods
