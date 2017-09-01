@@ -107,7 +107,13 @@ The following stories are in the format of: As a [user personna], in order to [a
 
 #### Findings and research
 
-Survey responses from over 230 FOIA agency components reflect a complex technical landscape.
+The following are survey responses from over 230 FOIA agency components reflect a complex technical landscape. These should be treated as rough estimates.
+
+**Tools counted by agency**
+![Tools counted by agency](https://github.com/18F/foia-recommendations/blob/master/img/byagency.png)
+
+**Tools counted by request volume**
+![Tools counted by request volume](https://github.com/18F/foia-recommendations/blob/master/img/byrequests.png)
 
 ##### Tools Counted by Agency
 
