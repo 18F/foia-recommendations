@@ -238,6 +238,7 @@ In usability testing, requesters were often shocked by estimated response times 
 
 When presented with detailed status steps of New, Assigned, Record Collection, Redaction, and Closed, users were able to describe reasonably what was going on at each step but were not confident that their assumptions were accurate. Requesters overwhelming preferred more detail and information about the status of their request and the stages of fulfilling requests.
 
+![Screenshot of the status page prototype shown to requesters after submission](https://github.com/18F/foia-recommendations/blob/master/img/status-mockup.png)
 _Screenshot from the status page prototype shown to requesters after submission._
 
 ##### Contact information
@@ -386,6 +387,7 @@ When prompted to choose an agency component, new requesters were usually confuse
 
 New requesters were also confused when agencies had their own web form for request submission. In usability tests, when requesters selected a FOIAonline subscriber, for example, the transition (following a link to FOIAonline) was jarring. One requester assumed they had clicked the wrong link all together. Many were confused because they didn't understand the distinction between FOIAonline and the portal. This improved slightly when requesters were sent directly to an agency's form, instead of the FOIAonline homepage.
 
+![Screenshot of the prototype testing a direct link for submission to an agency with their own web form for request submission](https://github.com/18F/foia-recommendations/blob/master/img/agency-name-prototype.png)
 _Screenshot of the prototype testing a direct link for submission to an agency with their own web form for request submission._
 
 We hope that providing a more consistent requester experience across agencies will help requesters understand FOIA and ultimately lead to more trust in how government is handling their requests.
