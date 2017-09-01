@@ -1,6 +1,14 @@
 # FOIA platform research plan
 
-This is a living document. It will be updated over the course of the coming weeks as we learn more from our users and as we hone in our hypotheses.
+_This is a living document. It will be updated over the course of the coming weeks as we learn more from our users and as we hone in our hypotheses._
+
+We started by working with DOJ and OMB to identify a vision for the platform that would serve as the focus for our research: “An easy way for people to access government information. If existing information isn’t found, to submit and track a FOIA request, helping the requestor to send an easily answerable request to the right agency.”
+
+We then conducted a thorough review of materials already in place on the web and interviews with dozens of people who have filed FOIA requests and those who handle incoming requests, we developed hypotheses. Our hypotheses were focused on the FOIA system in general, the primary challenges that users and stakeholders are facing, and possible ways to solve those challenges. We then built rough prototypes to test those hypotheses through usability tests with new and experienced FOIA requesters. We also met with agencies to identify issues or flaws in our interoperability hypotheses.
+
+Based on our findings in those tests, we created the recommendations in this document and the user stories that we think are necessary for fulfilling those recommendations.
+
+In short, our next steps are to prioritize those user stories, and then break down the top priority stories into features that we can start building. Those top priority user stories and the features that we build to support them will form our minimum viable product.
 
 ## Background
 
