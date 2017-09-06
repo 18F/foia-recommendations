@@ -17,7 +17,7 @@ This document includes a thorough explanation of our research findings, recommen
 
 In general, a minimum viable product is something intended to solve the most crucial user needs as soon as possible so that a team can test, validate, and improve. Minimum viable products (MVPs) will not satisfy everyone — almost by definition — but they are a foundation of the agile process. Releasing them as early as possible is important for mitigating risk: technical and design issues are identified and resolved more quickly and users are far more forgiving of a beta work in progress that improves over time.
 
-**DOJ has prioritized the following user stories from our recommendations for the minimum viable product.** The stories are in the format of: As a [user personna], in order to [accomplish a goal], I need [to do an action]. Additional user stories are recommended throughout the document for later phases. You can follow our work in support of these stories [on GitHub](https://github.com/search?q=topic%3Afoia+org%3A18F&type=Repositories).
+**DOJ has prioritized the following user stories from our recommendations for the minimum viable product.** The stories are in the format of: As a [user persona], in order to [accomplish a goal], I need [to do an action]. Additional user stories are recommended throughout the document for later phases. You can follow our work in support of these stories [on GitHub](https://github.com/search?q=topic%3Afoia+org%3A18F&type=Repositories).
 
 - As a FOIA office, in order to publish my metadata file as per the schema, I need a GUI form to walk me through each field in the metadata file.
 - As an agency that uses a case management system, in order to receive requests from the portal, I need a RESTful HTTPS API spec and request payload schema that I can use to implement. _Note: 18F usually builds with a public API-first approach. As noted in the API spec, this API will be a read/write API that allows the public to file requests via API and read agency metadata. Requests will not be public._
@@ -80,7 +80,7 @@ Many agencies are already tracking status via their case management systems. By 
 
 #### User stories
 
-The following stories are in the format of: As a [user personna], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
+The following stories are in the format of: As a [user persona], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
 
 ##### Agency metadata file
 
@@ -174,7 +174,7 @@ Consistent messaging, with a link to the status page, was a common request among
 
 #### User stories
 
-The following stories are in the format of: As a [user personna], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
+The following stories are in the format of: As a [user persona], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
 
 ##### Simple request receipt/status page
 
@@ -307,7 +307,7 @@ The interface work done on openFOIA is a good starting place for this area of im
 
 #### User stories
 
-The following stories are in the format of: As a [user personna], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
+The following stories are in the format of: As a [user persona], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
 
 ##### Create improved, consistent request submission experience
 
@@ -385,7 +385,7 @@ In interviews, frequent requesters reported that they do not have trouble findin
 
 When prompted to choose an agency component, new requesters were usually confused. They often looked for contact information before submitting a request.
 
-New requesters were also confused when agencies had their own web form for request submission. In usability tests, when requesters selected a FOIAonline subscriber, for example, the transition (following a link to FOIAonline) was jarring. One requester assumed they had clicked the wrong link all together. Many were confused because they didn't understand the distinction between FOIAonline and the portal. This improved slightly when requesters were sent directly to an agency's form, instead of the FOIAonline homepage.
+New requesters were also confused when agencies had their own web form for request submission. In usability tests, when requesters selected a FOIAonline subscriber, for example, the transition (following a link to FOIAonline) was jarring. One requester assumed they had clicked the wrong link altogether. Many were confused because they didn't understand the distinction between FOIAonline and the portal. This improved slightly when requesters were sent directly to an agency's form, instead of the FOIAonline homepage.
 
 ![Screenshot of the prototype testing a direct link for submission to an agency with their own web form for request submission](https://github.com/18F/foia-recommendations/blob/master/img/agency-name-prototype.png)
 _Screenshot of the prototype testing a direct link for submission to an agency with their own web form for request submission._
@@ -435,7 +435,7 @@ Some agencies suggest that they do not have the resources or face technical obst
 
 #### User stories
 
-The following stories are in the format of: As a [user personna], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
+The following stories are in the format of: As a [user persona], in order to [accomplish a goal], I need [to do an action]. Ratings of small, medium, or large are based on how well understood the work is, amount of risk and reliance on outsiders, and level of effort.
 
 ##### Finding documents
 
