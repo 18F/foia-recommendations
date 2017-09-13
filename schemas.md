@@ -134,31 +134,17 @@ method represents a different format. Example formats include `paper`, `fax`,
 #### Receiving requests from a National Portal
 
 The agency can specify additional information to be collected by the Portal by
-specifying these optional fields.
+specifying the optional list of fields. Fields will appear on the form in the
+order they are presented in the list.
 
-  * required form fields
-    * name
-    * label
-    * URL to the regulations requiring additional information
-    * help text
-  * additional form fields
-    * name
-    * label
-    * help text
-  * uiSchema describing form presentation
-
-
-##### uiSchema for form presentation
-
-In order to present the form to the requester as the agency intends, the agency
-can include a limited version of
-a [uiSchema](https://github.com/mozilla-services/react-jsonschema-form#the-uischema-object)
-that can be used to describe how the additional fields should be rendered.
-
-* ui:order
-* field(s)
-  * ui:widget
-  * ui:placeholder
+* list of agency component specific form fields
+  * name
+  * label
+  * help text (optional)
+  * example value (optional)
+  * required (optional)
+  * URL to the regulations requiring additional information (applicable when form field is
+    marked required)
 
 
 ## Creating a request
