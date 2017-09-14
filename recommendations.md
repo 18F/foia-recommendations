@@ -1,5 +1,7 @@
 # FOIA Recommendations
 
+[_Printer-friendly version is here (PDF)_](https://github.com/18F/foia-recommendations/blob/master/FOIARecommendations.pdf)
+
 ## Introduction
 
 The Department of Justice (DOJ) hired 18F to develop recommendations for fulfilling the [FOIA Improvement Act of 2016's](https://www.justice.gov/oip/oip-summary-foia-improvement-act-2016) directive to build a "consolidated online request portal that allows a member of the public to submit a request for records under subsection (a) to any agency from a single website."
