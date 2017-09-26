@@ -6,16 +6,17 @@ FOIA. This is mostly for use within our team.
 See also https://www.foia.gov/glossary.html
 
 
+##### agency component
+
+A thing that receives a FOIA request. This is a catch-all term used by OIP to
+refer to departments, bureaus, and offices that receive FOIA requests.
+
+
 ##### Chief FOIA Officer
 
 The person with agency-wide responsibility for oversight and support to FOIA
 programs. The position is required by the Freedom of Information Act and
 includes several additional responsibilities.
-
-
-##### cms
-
-See [case management-system](#case-management-system).
 
 
 ##### case management system
@@ -24,6 +25,16 @@ A system (usually electronic) to track the workflow of individual FOIA requests
 (cases). Each agency can have their own case management system they use to
 triage, assign, track, and fulfill requests. Agencies may use case management
 systems for as much or as little of the FOIA fulfillment process as they wish.
+
+
+##### CMS
+
+See [case management-system](#case-management-system).
+
+
+##### component
+
+See [agency component](#agency-component)
 
 
 ##### disclosability
